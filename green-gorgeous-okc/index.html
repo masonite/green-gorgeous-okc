@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Green & Gorgeous OKC - Monthly lawn care tips, weather insights, and professional recommendations for Oklahoma City homeowners.">
+  <meta name="keywords" content="Oklahoma City lawn care, OKC lawn tips, Bermuda grass, Oklahoma lawn newsletter">
+  <title>Green & Gorgeous OKC | Perfect Oklahoma Lawns Start Here</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon (inline SVG data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+
+  <!-- ============================================ -->
+  <!-- NAVIGATION -->
+  <!-- ============================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand">
+        <span class="nav-icon">🌱</span>
+        <span class="nav-title">Green & Gorgeous <span class="nav-okc">OKC</span></span>
+      </a>
+      <a href="#hero-signup" class="nav-cta btn btn-accent btn-sm">Subscribe Free</a>
+    </div>
+  </nav>
+
+  <!-- ============================================ -->
+  <!-- HERO SECTION -->
+  <!-- ============================================ -->
+  <header class="hero" id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">🌿 Free Monthly Newsletter</div>
+      <h1 class="hero-title">Get the Perfect<br><span class="hero-highlight">Oklahoma Lawn</span></h1>
+      <p class="hero-subtitle">Monthly tips, weather insights, and professional recommendations delivered to your inbox. Built for OKC homeowners who want results.</p>
+
+      <!-- Hero Signup Form -->
+      <form class="signup-form hero-form" id="hero-signup" data-form="hero">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="hero-email" class="sr-only">Email Address</label>
+            <input type="email" id="hero-email" name="email" placeholder="Your email address" required autocomplete="email">
+            <span class="form-error" id="hero-email-error"></span>
+          </div>
+          <div class="form-group form-group-zip">
+            <label for="hero-zip" class="sr-only">ZIP Code</label>
+            <input type="text" id="hero-zip" name="zip" placeholder="ZIP Code" maxlength="5" pattern="[0-9]{5}" required inputmode="numeric" autocomplete="postal-code">
+            <span class="form-error" id="hero-zip-error"></span>
+          </div>
+          <button type="submit" class="btn btn-accent btn-lg">
+            <span class="btn-text">Get My Free Lawn Guide</span>
+            <span class="btn-icon">→</span>
+          </button>
+        </div>
+        <p class="form-note">Join 500+ Oklahoma homeowners. Unsubscribe anytime.</p>
+      </form>
+
+      <!-- Trust Badges -->
+      <div class="hero-trust">
+        <div class="trust-item">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>100% Free</span>
+        </div>
+        <div class="trust-item">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>No Spam</span>
+        </div>
+        <div class="trust-item">
+          <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>OKC Local</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- VALUE PROPOSITION - 3 Column Grid -->
+  <!-- ============================================ -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">What You'll Get Every Month</h2>
+      <p class="section-subtitle">Oklahoma-specific advice that actually works for our clay soil, wild weather, and Bermuda grass.</p>
+
+      <div class="features-grid">
+        <!-- Feature 1: Weather -->
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <svg class="feature-icon" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="28" r="10" stroke="#7CB342" stroke-width="3"/>
+              <line x1="32" y1="12" x2="32" y2="8" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="32" y1="48" x2="32" y2="44" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="16" y1="28" x2="12" y2="28" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="52" y1="28" x2="48" y2="28" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="20.3" y1="16.3" x2="17.5" y2="13.5" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="46.5" y1="42.5" x2="43.7" y2="39.7" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="43.7" y1="16.3" x2="46.5" y2="13.5" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <line x1="17.5" y1="42.5" x2="20.3" y2="39.7" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+              <path d="M38 50c0-3 5-3 5-6s-2-4-5-4-5 1-5 4 5 3 5 6" stroke="#7CB342" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Local Weather Insights</h3>
+          <p class="feature-desc">Oklahoma's freeze/thaw cycles, unpredictable springs, and scorching summers demand specific timing. We track it so you don't have to.</p>
+        </div>
+
+        <!-- Feature 2: Calendar -->
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <svg class="feature-icon" viewBox="0 0 64 64" fill="none">
+              <rect x="10" y="16" width="44" height="38" rx="4" stroke="#7CB342" stroke-width="3"/>
+              <line x1="10" y1="28" x2="54" y2="28" stroke="#7CB342" stroke-width="3"/>
+              <line x1="22" y1="10" x2="22" y2="22" stroke="#7CB342" stroke-width="3" stroke-linecap="round"/>
+              <line x1="42" y1="10" x2="42" y2="22" stroke="#7CB342" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="24" cy="37" r="2" fill="#FFC107"/>
+              <circle cx="32" cy="37" r="2" fill="#FFC107"/>
+              <circle cx="40" cy="37" r="2" fill="#2D5016"/>
+              <circle cx="24" cy="45" r="2" fill="#2D5016"/>
+              <circle cx="32" cy="45" r="2" fill="#FFC107"/>
+              <circle cx="40" cy="45" r="2" fill="#FFC107"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Expert Tips & Calendar</h3>
+          <p class="feature-desc">A month-by-month action plan: when to fertilize, mow, apply pre-emergent, and prepare for each Oklahoma season. No guesswork.</p>
+        </div>
+
+        <!-- Feature 3: Professionals -->
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <svg class="feature-icon" viewBox="0 0 64 64" fill="none">
+              <path d="M12 42c0-2 2-4 6-5s6-2 6-5c0-2-1-4-4-4s-4 2-4 4" stroke="#7CB342" stroke-width="3" stroke-linecap="round"/>
+              <path d="M52 42c0-2-2-4-6-5s-6-2-6-5c0-2 1-4 4-4s4 2 4 4" stroke="#7CB342" stroke-width="3" stroke-linecap="round"/>
+              <path d="M22 48l10-8 10 8" stroke="#FFC107" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18 48h28" stroke="#2D5016" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="20" cy="24" r="6" stroke="#7CB342" stroke-width="3"/>
+              <circle cx="44" cy="24" r="6" stroke="#7CB342" stroke-width="3"/>
+              <path d="M28 18h8" stroke="#FFC107" stroke-width="2" stroke-linecap="round"/>
+              <path d="M28 24h8" stroke="#FFC107" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Vetted Professional Network</h3>
+          <p class="feature-desc">When it's time to call in the pros, we connect you with pre-screened Oklahoma City lawn services. No cold-calling strangers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- NEWSLETTER PREVIEW SECTION -->
+  <!-- ============================================ -->
+  <section class="preview" id="preview">
+    <div class="container">
+      <h2 class="section-title">What's Inside This Month</h2>
+      <p class="section-subtitle">Here's a peek at our February edition — spring prep starts now!</p>
+
+      <div class="preview-layout">
+        <!-- Newsletter Mockup -->
+        <div class="preview-mockup">
+          <div class="mockup-header">
+            <div class="mockup-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="mockup-label">February 2026 Edition</span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-brand">🌱 GREEN & GORGEOUS OKC</div>
+            <div class="mockup-edition">Your Monthly Guide to Perfect Oklahoma Lawns</div>
+            <div class="mockup-divider"></div>
+
+            <div class="mockup-section">
+              <h4>📅 February Lawn Calendar</h4>
+              <ul>
+                <li><strong>Week 1-2:</strong> Clear winter debris, inspect sprinklers</li>
+                <li><strong>Week 3:</strong> Pre-emergent herbicide application</li>
+                <li><strong>Week 4:</strong> Mower maintenance & blade sharpening</li>
+              </ul>
+            </div>
+
+            <div class="mockup-section">
+              <h4>🌡️ Oklahoma Weather Impact</h4>
+              <p>February's alternating freeze/thaw cycles can wreak havoc. Here's how to protect your investment...</p>
+              <div class="mockup-tip">
+                <strong>Pro Tip:</strong> Don't walk on frozen grass — you'll damage the blades!
+              </div>
+            </div>
+
+            <div class="mockup-section">
+              <h4>🚨 Watch Out For</h4>
+              <ul>
+                <li>Brown Patch Fungus (wet, cool conditions)</li>
+                <li>Rodent damage from voles under snow</li>
+                <li>Salt damage from winter ice treatment</li>
+              </ul>
+            </div>
+
+            <div class="mockup-section">
+              <h4>💡 Oklahoma Clay Soil Tip</h4>
+              <p>Our clay soil compacts easily. February is the perfect time to plan aeration once the ground thaws. Test your soil pH — Oklahoma clay tends alkaline.</p>
+            </div>
+
+            <div class="mockup-cta">
+              🔧 Need professional help? See our vetted local pros →
+            </div>
+          </div>
+        </div>
+
+        <!-- Content Highlights -->
+        <div class="preview-highlights">
+          <div class="highlight-card">
+            <span class="highlight-num">01</span>
+            <div>
+              <h4>Pre-Emergent Timing</h4>
+              <p>Apply before soil hits 55°F consistently. Miss this window and you'll be fighting crabgrass all summer.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-num">02</span>
+            <div>
+              <h4>Spring Prep Checklist</h4>
+              <p>Your week-by-week action plan for getting ahead of Oklahoma's growing season before your neighbors do.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-num">03</span>
+            <div>
+              <h4>Clay Soil Solutions</h4>
+              <p>Oklahoma's notorious clay soil needs specific treatment. We break down what works (and what's a waste of money).</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-num">04</span>
+            <div>
+              <h4>Vetted Local Pros</h4>
+              <p>Pre-screened Oklahoma City lawn services with real reviews. Skip the guesswork when you need help.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SOCIAL PROOF / TESTIMONIALS -->
+  <!-- ============================================ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Oklahoma Homeowners Are Saying</h2>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote class="testimonial-quote">
+            "I used to guess when to fertilize and always got it wrong. The monthly calendar alone saved me hundreds on wasted products. My Bermuda grass has never looked this good."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SM</div>
+            <div>
+              <strong>Sarah M.</strong>
+              <span>Edmond, OK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote class="testimonial-quote">
+            "The pre-emergent timing tip last spring was a game-changer. Zero crabgrass for the first time in five years. Plus the pro they connected me with for aeration was fantastic."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">JR</div>
+            <div>
+              <strong>James R.</strong>
+              <span>Nichols Hills, OK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote class="testimonial-quote">
+            "We moved from Texas and had no idea how different Oklahoma clay soil is. This newsletter taught us everything we needed. Our neighbors keep asking what our secret is!"
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">KT</div>
+            <div>
+              <strong>Karen T.</strong>
+              <span>Norman, OK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Location Trust Signals -->
+      <div class="trust-locations">
+        <p class="trust-locations-label">Proudly serving homeowners in</p>
+        <div class="trust-locations-list">
+          <span class="location-tag">Nichols Hills</span>
+          <span class="location-tag">Edmond</span>
+          <span class="location-tag">Moore</span>
+          <span class="location-tag">Norman</span>
+          <span class="location-tag">Yukon</span>
+          <span class="location-tag">Midwest City</span>
+          <span class="location-tag">Del City</span>
+          <span class="location-tag">Bethany</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- FINAL CTA SECTION -->
+  <!-- ============================================ -->
+  <section class="final-cta" id="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <div class="cta-badge">🎁 Free Bonus</div>
+        <h2 class="cta-title">Join 500+ Oklahoma Homeowners</h2>
+        <p class="cta-subtitle">Sign up today and get our <strong>Spring Lawn Assessment Guide</strong> free — a step-by-step plan to get your lawn ready for Oklahoma's growing season.</p>
+
+        <div class="cta-benefits">
+          <div class="cta-benefit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#7CB342" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Soil pH testing instructions</span>
+          </div>
+          <div class="cta-benefit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#7CB342" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Custom fertilization schedule</span>
+          </div>
+          <div class="cta-benefit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#7CB342" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Weed prevention strategy</span>
+          </div>
+          <div class="cta-benefit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#7CB342" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>3 vetted local pro recommendations</span>
+          </div>
+        </div>
+
+        <!-- Final Signup Form -->
+        <form class="signup-form cta-form" id="cta-signup" data-form="cta">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cta-email" class="sr-only">Email Address</label>
+              <input type="email" id="cta-email" name="email" placeholder="Your email address" required autocomplete="email">
+              <span class="form-error" id="cta-email-error"></span>
+            </div>
+            <div class="form-group form-group-zip">
+              <label for="cta-zip" class="sr-only">ZIP Code</label>
+              <input type="text" id="cta-zip" name="zip" placeholder="ZIP" maxlength="5" pattern="[0-9]{5}" required inputmode="numeric" autocomplete="postal-code">
+              <span class="form-error" id="cta-zip-error"></span>
+            </div>
+            <button type="submit" class="btn btn-accent btn-lg">
+              <span class="btn-text">Get My Free Lawn Guide</span>
+              <span class="btn-icon">→</span>
+            </button>
+          </div>
+          <p class="form-note">No spam. Just lawn care gold. Unsubscribe anytime.</p>
+        </form>
+
+        <p class="cta-urgency">🌡️ <strong>Spring prep starts in February</strong> — don't wait until the weeds beat you to it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="footer-icon">🌱</span>
+        <span>Green & Gorgeous OKC</span>
+      </div>
+      <p class="footer-copy">&copy; 2026 Green & Gorgeous OKC. All rights reserved.</p>
+      <p class="footer-legal">Your privacy matters. We never share your email. <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
