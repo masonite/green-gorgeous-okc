@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverGreen Gardens | Professional Landscaping Newsletter</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#25ec13",
+                        "background-light": "#f8fcf8",
+                        "background-dark": "#122210",
+                        "wood": "#d9c5b2",
+                        "leaf": "#0f1b0d",
+                        "soft-green": "#e8f3e7"
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif", "serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2rem",
+                        "3xl": "3rem",
+                        "full": "9999px"
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: #f8fcf8;
+            color: #0f1b0d;
+        }
+        h1, h2, h3, h4, .font-display {
+            font-family: 'Noto Serif', serif;
+        }
+        .organic-shape {
+            border-radius: 60% 40% 70% 30% / 30% 60% 40% 70%;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .newsletter-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(37, 236, 19, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-background-light">
+    <div class="newsletter-container px-4 py-8 md:px-6 lg:px-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <div class="inline-block p-6 rounded-3xl bg-leaf text-white mb-6">
+                <h1 class="text-4xl md:text-5xl font-black font-display mb-2">
+                    <span class="text-primary">EverGreen</span> Gardens
+                </h1>
+                <p class="text-lg opacity-90">Professional Landscaping Newsletter</p>
+            </div>
+            <div class="text-leaf">
+                <p class="text-xl font-medium">February 2025 Edition | Oklahoma City</p>
+                <p class="text-lg mt-2">Transforming outdoor spaces into personal sanctuaries</p>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="mb-16">
+            <div class="relative overflow-hidden rounded-3xl bg-leaf min-h-[400px] flex items-center justify-center text-center p-8">
+                <div class="absolute inset-0 z-0 opacity-60">
+                    <div class="h-full w-full bg-gradient-to-br from-primary/20 to-leaf"></div>
+                </div>
+                <div class="relative z-10 max-w-3xl">
+                    <h2 class="mb-6 text-3xl font-black text-white md:text-4xl lg:text-5xl leading-tight font-display">
+                        Spring Awakening: <span class="text-primary italic">Prepare Your Oklahoma Lawn</span>
+                    </h2>
+                    <p class="mb-8 text-lg text-white/90 md:text-xl font-normal leading-relaxed max-w-2xl mx-auto">
+                        Expert landscaping insights tailored for Oklahoma City's unique climate. This month: essential spring preparation for a lush summer lawn.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="space-y-12">
+            <!-- Featured Article -->
+            <section class="bg-white rounded-3xl p-8 shadow-lg">
+                <div class="flex items-center gap-3 mb-6">
+                    <span class="material-symbols-outlined text-3xl text-primary">grass</span>
+                    <h2 class="text-3xl font-bold text-leaf font-display">This Month's Focus: Spring Lawn Preparation</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div class="space-y-6">
+                        <div class="feature-card bg-soft-green rounded-2xl p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="material-symbols-outlined text-2xl text-primary">science</span>
+                                <h3 class="text-xl font-bold text-leaf">Soil Testing & Amendment</h3>
+                            </div>
+                            <p class="text-leaf/90 mb-4"><strong>Why:</strong> Oklahoma's clay-heavy soil needs proper pH balance (6.0-7.0) for optimal grass growth.</p>
+                            <p class="text-leaf/90"><strong>Action:</strong> Test your soil now. Free soil test kits available at OSU Extension Office.</p>
+                        </div>
+
+                        <div class="feature-card bg-soft-green rounded-2xl p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="material-symbols-outlined text-2xl text-primary">water_drop</span>
+                                <h3 class="text-xl font-bold text-leaf">Aeration Timing</h3>
+                            </div>
+                            <p class="text-leaf/90 mb-4"><strong>When:</strong> Soil is moist but not soggy (late February - early March).</p>
+                            <p class="text-leaf/90"><strong>Why:</strong> Reduces compaction from winter, improves water and nutrient absorption.</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div class="feature-card bg-soft-green rounded-2xl p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="material-symbols-outlined text-2xl text-primary">psychiatry</span>
+                                <h3 class="text-xl font-bold text-leaf">Pre-Emergent Herbicide</h3>
+                            </div>
+                            <p class="text-leaf/90 mb-4"><strong>Critical Timing:</strong> Apply before soil reaches 55°F (usually early March in OKC).</p>
+                            <p class="text-leaf/90"><strong>Target:</strong> Prevents crabgrass and other weeds. Product recommendation: Prodiamine.</p>
+                        </div>
+
+                        <div class="feature-card bg-soft-green rounded-2xl p-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="material-symbols-outlined text-2xl text-primary">yard</span>
+                                <h3 class="text-xl font-bold text-leaf">First Mowing Guidelines</h3>
+                            </div>
+                            <p class="text-leaf/90 mb-4"><strong>Height:</strong> Set mower to 3-3.5 inches for fescue/bermuda.</p>
+                            <p class="text-leaf/90"><strong>Tip:</strong> Never remove more than ⅓ of grass blade length to avoid stress.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Local Services -->
+            <section class="bg-white rounded-3xl p-8 shadow-lg">
+                <div class="flex items-center gap-3 mb-8">
+                    <span class="material-symbols-outlined text-3xl text-primary">local_florist</span>
+                    <h2 class="text-3xl font-bold text-leaf font-display">Featured Local Services</h2>
+                </div>
+
+                <div class="mb-8" id="local-providers">
+                    <div class="bg-primary/10 rounded-2xl p-6 mb-6">
+                        <h3 class="text-2xl font-bold text-leaf mb-4">Spring Cleanup Special</h3>
+                        <p class="text-lg text-leaf/90 mb-6">Exclusive offer for newsletter subscribers only</p>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-8">
+                            <div class="bg-white rounded-xl p-5">
+                                <h4 class="font-bold text-leaf mb-3">Services Included:</h4>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">check</span>
+                                        Leaf and debris removal
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">check</span>
+                                        Light dethatching
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">check</span>
+                                        Edge trimming
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">check</span>
+                                        Initial mowing and cleanup
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-white rounded-xl p-5">
+                                <h4 class="font-bold text-leaf mb-3">Special Offer:</h4>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">percent</span>
+                                        15% off spring cleanup services
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">science</span>
+                                        Free soil test analysis
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-primary text-sm">grass</span>
+                                        Complimentary aeration
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button onclick="viewProviders()" class="bg-primary text-leaf px-6 py-3 rounded-xl font-bold hover:bg-primary/90 transition-all">
+                                <span class="material-symbols-outlined align-middle mr-2">search</span>
+                                Find Local Lawn Services in Your Area
+                            </button>
+                            <p class="text-leaf/70 text-sm mt-3">
+                                Uses Google Places API via goplaces CLI • API key configured in local-places
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="text-center">
+                    <div class="inline-block bg-primary rounded-2xl p-8 max-w-2xl">
+                        <h3 class="text-2xl font-bold text-leaf mb-4">Ready for a Perfect Lawn This Spring?</h3>
+                        <p class="text-leaf/90 mb-6 text-lg">Get matched with vetted local professionals who offer exclusive rates to our subscribers.</p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <button onclick="requestQuote()" class="bg-leaf text-white px-8 py-4 rounded-xl font-bold hover:bg-leaf/90 transition-all text-lg">
+                                Request Free Quote
+                            </button>
+                            <button onclick="viewProviders()" class="bg-white text-leaf border-2 border-leaf px-8 py-4 rounded-xl font-bold hover:bg-leaf/10 transition-all text-lg">
+                                View Local Providers
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Q&A Section -->
+            <section class="bg-white rounded-3xl p-8 shadow-lg">
+                <div class="flex items-center gap-3 mb-8">
+                    <span class="material-symbols-outlined text-3xl text-primary">contact_support</span>
+                    <h2 class="text-3xl font-bold text-leaf font-display">Reader Q&A</h2>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="border-l-4 border-primary pl-6 py-2">
+                        <h3 class="text-xl font-bold text-leaf mb-3">"When should I fertilize my lawn in Oklahoma?"</h3>
+                        <p class="text-leaf/90">
+                            <strong>Answer:</strong> For cool-season grasses (fescue), apply fertilizer in early March. 
+                            For warm-season grasses (bermuda), wait until late April when soil temperatures reach 65°F. 
+                            Use a slow-release nitrogen fertilizer (1 lb per 1000 sq ft).
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-primary pl-6 py-2">
+                        <h3 class="text-xl font-bold text-leaf mb-3">"How often should I water in spring?"</h3>
+                        <p class="text-leaf/90">
+                            <strong>Answer:</strong> In March-April, lawns need about 1 inch of water per week. 
+                            Water deeply but infrequently to encourage deep root growth. 
+                            Early morning watering reduces evaporation and disease risk.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-leaf/20">
+            <div class="text-center">
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold text-leaf font-display mb-4">Upcoming Issues</h3>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <span class="bg-soft-green text-leaf px-4 py-2 rounded-full">Oklahoma Weed Identification</span>
+                        <span class="bg-soft-green text-leaf px-4 py-2 rounded-full">Irrigation System Prep</span>
+                        <span class="bg-soft-green text-leaf px-4 py-2 rounded-full">Choosing the Right Grass</span>
+                    </div>
+                </div>
+
+                <div class="text-leaf/70 space-y-4">
+                    <p class="text-lg">
+                        <strong>Thank you for subscribing to EverGreen Gardens!</strong><br>
+                        Your outdoor space deserves the best care Oklahoma has to offer.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center gap-6 text-sm">
+                        <a href="#" class="text-primary hover:underline">Update Preferences</a>
+                        <a href="#" class="text-primary hover:underline">Unsubscribe</a>
+                        <a href="#" class="text-primary hover:underline">View in Browser</a>
+                    </div>
+                    
+                    <p class="text-sm">
+                        © 2025 EverGreen Gardens. Serving Oklahoma City, Edmond, Norman, Moore, and Nichols Hills.<br>
+                        <span class="opacity-70">Transforming outdoor spaces into personal sanctuaries.</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Google Places API Integration via goplaces CLI
+        // Note: In production, this would call a backend service that uses the goplaces CLI
+        // The API key is configured in ~/.clawdbot/clawdbot.json under "local-places"
+        
+        function requestQuote() {
+            alert('Quote request feature coming soon! We\'ll connect you with vetted local providers.');
+            // In production: Open modal with form that submits to backend
+        }
+        
+        function viewProviders() {
+            // Show loading state
+            const providersSection = document.getElementById('local-providers');
+            providersSection.innerHTML = `
+                <div class="text-center py-8">
+                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
+                    <p class="mt-4 text-leaf/70">Loading local providers...</p>
+                </div>
+            `;
+            
+            // Simulate API call to backend that uses goplaces CLI
+            setTimeout(() => {
+                displayLocalProviders();
+            }, 1000);
+        }
+        
+        // Mock data - in production this would come from goplaces CLI via backend
+        const mockLocalProviders = [
+            {
+                name: "Lawn Love - Oklahoma City",
+                address: "5956 NW 60th St, Warr Acres, OK 73122",
+                rating: 4.9,
+                services: ["Mowing", "Fertilization", "Weed Control"],
+                special_offer: "First month 20% off for new customers"
+            },
+            {
+                name: "All Green Lawn & Pest",
+                address: "7001 NW 80th St, Oklahoma City, OK 73132",
+                rating: 4.9,
+                services: ["Lawn Care", "Pest Control", "Aeration"],
+                special_offer: "Free soil test with seasonal package"
+            },
+            {
+                name: "Willis Lawn Services LLC",
+                address: "5850 W Wilshire Blvd Suite 6, Oklahoma City, OK 73132",
+                rating: 5.0,
+                services: ["Commercial & Residential", "Landscaping", "Maintenance"],
+                special_offer: "15% discount for newsletter subscribers"
+            },
+            {
+                name: "TruGreen Oklahoma City",
+                address: "Multiple locations across OKC",
+                rating: 4.7,
+                services: ["Complete Lawn Care", "Tree & Shrub Care", "Mosquito Control"],
+                special_offer: "Free consultation + $50 off first service"
+            }
+        ];
+        
+        function displayLocalProviders() {
+            const providersSection = document.getElementById('local-providers');
+            
+            let html = `
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold text-leaf mb-6">Top-Rated Local Lawn Services</h3>
+                    <p class="text-leaf/90 mb-6">These providers have been vetted for quality and offer exclusive rates to our subscribers:</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+            `;
+            
+            mockLocalProviders.forEach(provider => {
+                const stars = '★'.repeat(Math.floor(provider.rating)) + '☆'.repeat(5 - Math.floor(provider.rating));
+                
+                html += `
+                    <div class="bg-soft-green rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-xl font-bold text-leaf">${provider.name}</h4>
+                            <div class="flex items-center bg-white px-3 py-1 rounded-full">
+                                <span class="text-primary font-bold mr-1">${provider.rating}</span>
+                                <span class="text-yellow-500">${stars}</span>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                                <span class="text-leaf/80 text-sm">${provider.address}</span>
+                            </div>
+                            
+                            <div class="flex flex-wrap gap-2 mt-3">
+                                ${provider.services.map(service => 
+                                    `<span class="bg-white text-leaf text-xs px-3 py-1 rounded-full">${service}</span>`
+                                ).join('')}
+                            </div>
+                            
+                            <div class="mt-4 p-3 bg-primary/10 rounded-xl">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="material-symbols-outlined text-primary text-sm">local_offer</span>
+                                    <span class="font-bold text-leaf">Special Offer:</span>
+                                </div>
+                                <p class="text-leaf/90 text-sm">${provider.special_offer}</p>
+                            </div>
+                            
+                            <button onclick="selectProvider('${provider.name}')" class="w-full mt-4 bg-leaf text-white px-4 py-2 rounded-xl font-bold hover:bg-leaf/90 transition-all text-sm">
+                                Request Quote from ${provider.name.split(' ')[0]}
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += `
+                    </div>
+                    
+                    <div class="mt-8 text-center">
+                        <p class="text-leaf/70 text-sm">
+                            <span class="material-symbols-outlined text-primary text-sm align-middle">info</span>
+                            These providers are found using the Google Places API via the goplaces CLI tool.
+                            API key configured in ~/.clawdbot/clawdbot.json under "local-places".
+                        </p>
+                    </div>
+                </div>
+            `;
+            
+            providersSection.innerHTML = html;
+        }
+        
+        function selectProvider(providerName) {
+            alert(`Connecting you with ${providerName}...\n\nIn production, this would:\n1. Record your interest\n2. Send your details to the provider\n3. Schedule a consultation\n4. Apply your subscriber discount`);
+            
+            // In production: Submit to backend, send email to provider, etc.
+        }
+        
+        // Example of how goplaces CLI would be used on backend:
+        /*
+        // Backend code (Node.js/Python) would look like:
+        const { exec } = require('child_process');
+        
+        function getLocalLawnServices(location) {
+            return new Promise((resolve, reject) => {
+                const apiKey = process.env.GOOGLE_PLACES_API_KEY; // From config
+                const command = `goplaces --api-key="${apiKey}" search "lawn service ${location}" --limit=5 --json`;
+                
+                exec(command, (error, stdout, stderr) => {
+                    if (error) {
+                        reject(error);
+                        return;
+                    }
+                    try {
+                        const results = JSON.parse(stdout);
+                        resolve(results);
+                    } catch (e) {
+                        reject(e);
+                    }
+                });
+            });
+        }
+        */
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('EverGreen Gardens Newsletter loaded');
+            console.log('Google Places API key configured in local-places skill');
+            
+            // Check if we should pre-load providers
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('view') === 'providers') {
+                viewProviders();
+            }
+        });
+    </script>
+</body>
+</html>

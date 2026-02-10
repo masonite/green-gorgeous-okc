@@ -1,0 +1,825 @@
+{
+  "total": 55,
+  "last_updated": "2026-02-10T14:31:09.115Z",
+  "categories": 7,
+  "contractors": [
+    {
+      "name": "Willis Lawn Services LLC",
+      "address": "5850 W Wilshire Blvd Suite 6, Oklahoma City, OK 73132, USA",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ1wjQAnQFsocRHZmxTB5EqBA",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Lawn Love - Oklahoma City",
+      "address": "5956 NW 60th St, Warr Acres, OK 73122, USA",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJS0zWaQsFsocRm5dMs6R7h_8",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "All Green Lawn & Pest",
+      "address": "7001 NW 80th St, Oklahoma City, OK 73132, USA",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJG6M-CvAEsocR0v-kjuVXCjA",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Pro Outlook Tree & Lawn Service",
+      "address": "Mailbox 80, 5601 NW 72nd St Suite 260M, Warr Acres, OK 73132, USA",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVzo8yUMFsocRfcJK1Me0hmU",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Elite Lawn Care",
+      "address": "8901 S I-35 Service Rd, Oklahoma City, OK 73149, USA",
+      "rating": 4.8,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJA37fzNIUsocR2QULmcFULXw",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "PATRIOT OUTDOORS",
+      "address": "12101 N MacArthur Blvd, Oklahoma City, OK 73162, USA",
+      "rating": 4.8,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdQgDGq4DsocRX8mjAd286o0",
+      "open_now": false,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Serna lawn care and landscaping and tree service LLC",
+      "address": "6700 NW 63rd St, Warr Acres, OK 73132, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJDy5y554FsocRBoz90C6XTWQ",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Lawn Flip, LLC",
+      "address": "3001 Kerry Ln, Oklahoma City, OK 73120, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJO9X0plMbsocRBBWZChQgwF8",
+      "open_now": false,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "TL lawn care and landscaping",
+      "address": "5029 NW 19th St, Oklahoma City, OK 73127, USA",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3f58yDwPsocReYjfMQF8GvU",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Old School Lawn Services",
+      "address": "1838 NW 11th St #4, Oklahoma City, OK 73106, USA",
+      "rating": 4.6,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwwD1ge0QsocRaaIVRH41tbs",
+      "open_now": true,
+      "category": "lawn care service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "High Definition Lawn and Landscape",
+      "address": "11415 N Western Ave, Oklahoma City, OK 73114, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEbWuttUbsocRiUzU9ceSDmA",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Nelson Landscaping",
+      "address": "9200 N Bryant Ave, Oklahoma City, OK 73131, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJR1fxMhP1sYcR_q3hzrYDuWU",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Giant Landscape, LLC",
+      "address": "308 NW 69th St, Oklahoma City, OK 73116, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh2oQlyEZsocRsge6yei8WgI",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "OAK Outdoors",
+      "address": "4700 NW 70th St, Oklahoma City, OK 73132, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJjbbPWqYPdasRWUquiDy-ZkU",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Heartland Landscape Group",
+      "address": "13331 N Anderson Rd, Jones, OK 73049, USA",
+      "rating": 4.9,
+      "types": [
+        "farm",
+        "wholesaler",
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7Sj86KkfsocRP3e8a3D-7SY",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Perimeter Landscape",
+      "address": "7421 NW 83rd St, Oklahoma City, OK 73132, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZfYaXKcFsocR2Fazctyi0bc",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Sunshine's Garden Design, LLC",
+      "address": "2922 NW 22nd St, Oklahoma City, OK 73107, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7-_zoGkDsocRnykpbckHKtM",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "J&E Lawn Landscaping LLC",
+      "address": "2621 S Goff Ave, Oklahoma City, OK 73108, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJyc8sA3cRsocRyyfe0cKjDSs",
+      "open_now": true,
+      "category": "landscaping company",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Garden Design Associates Inc",
+      "address": "4310 N Walnut Ave, Oklahoma City, OK 73105, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6SV1iuYZsocRU1OSUTB7_-M",
+      "open_now": false,
+      "category": "garden design",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Modern Environment LLC",
+      "address": "301 NW 104th St, Oklahoma City, OK 73114, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVRzrezQXsocREsES9suUyLc",
+      "open_now": true,
+      "category": "garden design",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Sherwood Gardens Landscape Design & Development",
+      "address": "4000 E Wilshire Blvd, Oklahoma City, OK 73121, USA",
+      "rating": 4.7,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0y1XFWUZsocR5v_3z-Q1b_s",
+      "open_now": true,
+      "category": "garden design",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Havenscapes",
+      "address": "200 NE 150th St, Edmond, OK 73013, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3zhPbZEesocRbCw8hCBLHCw",
+      "open_now": false,
+      "category": "garden design",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Oklahoma Ponds",
+      "address": "1120 S Broadway, Edmond, OK 73034, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJH-FTehQVsocRr5iwXQmwV-o",
+      "open_now": false,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Garden Ponds Unlimited",
+      "address": "310 SW 1st St, Moore, OK 73160, USA",
+      "rating": 4.7,
+      "types": [
+        "pet_store",
+        "general_contractor",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJwxZ5WdIUsocRX5FrVm9EVkU",
+      "open_now": false,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "TurnPro Aquatics",
+      "address": "22995 Cove Wood Cir, Edmond, OK 73025, USA",
+      "rating": 3.4,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLbR_IEL2sYcRLhmy--FCBag",
+      "open_now": true,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Heavenly Water Gardens",
+      "address": "621 SW 11th St, Oklahoma City, OK 73109, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkSEZK9MWsocRY0Ok9220uEs",
+      "open_now": true,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Decorative Water Gardens",
+      "address": "2001 E Britton Rd, Oklahoma City, OK 73131, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx2EMdeMYsocRI5Q4oHcQiGs",
+      "open_now": false,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Big Fountain In Pond",
+      "address": "NW 158th St, Edmond, OK 73013, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLSEX_tgCsocRINH8uLLUcPs",
+      "open_now": false,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Elite Outdoor Living Solutions",
+      "address": "3807 N Donald Ave, Bethany, OK 73008, USA",
+      "rating": 4.6,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJa9oDETorvaIRvnd8ntULX6k",
+      "open_now": true,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Robison Wildlife Solutions",
+      "address": "9401 S Harrah Rd, Newalla, OK 74857, USA",
+      "rating": 4,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJG-JfTOo1socRqcXddf9KGUs",
+      "open_now": true,
+      "category": "pond installation",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Metro Fence Installation Company OKC",
+      "address": "425 W Wilshire Blvd #2k, Oklahoma City, OK 73116, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0yWnZ0EZsocRYXiMDLvTZFc",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Fence OKC",
+      "address": "3200 W Reno Ave, Oklahoma City, OK 73107, USA",
+      "rating": 4.6,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJU_fMBGYcsocRXGt0ZYPIXY8",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Red River Fence, LLC",
+      "address": "100 N Falcon Dr, Oklahoma City, OK 73127, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF3kI_wUPsocRhmrrPk3Y8Bo",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Preferred Fence Solutions, Inc.",
+      "address": "8071 N Classen Blvd Suite A, Oklahoma City, OK 73114, USA",
+      "rating": 4.7,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYXHNN9QbsocRZdX7RfUvUHs",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "A Better Fence Construction",
+      "address": "1235 Sovereign Row Suite C4, Oklahoma City, OK 73108, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYTz6EgoUsocRN2EU6B3YQEE",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Apex Fence",
+      "address": "9820 W Wilshire Blvd, Yukon, OK 73099, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7V4y5iUEsocRUPVz3PqiTuo",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "D & G Fence Company LLC",
+      "address": "9017 NE 19th St, Oklahoma City, OK 73141, USA",
+      "rating": 4.7,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLX3HQHhcsocRxlzCGwUsmBA",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Michael's Fencing, LLC",
+      "address": "8111 SW 15th St #104W, Oklahoma City, OK 73128, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu5aJfPrvjgIRBa4aOCHhrFc",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Fence Masters",
+      "address": "5207 NW 10th St, Oklahoma City, OK 73127, USA",
+      "rating": 4.4,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ0sJlfEEsocRlXdXkfPC3w0",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "American Fencing Company Inc.",
+      "address": "215 Cooley Dr, Oklahoma City, OK 73127, USA",
+      "rating": 4,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJI6kzvQYOsocR1oj3g7yPuoY",
+      "open_now": true,
+      "category": "fence contractor",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "David’s Irrigation, LLC",
+      "address": "5956 NW 58th Terrace, Warr Acres, OK 73122, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUWH4trYasocRRtDZw30iVb4",
+      "open_now": false,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "405 Irrigation",
+      "address": "13331 N Anderson Rd, Jones, OK 73049, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtY8tI8wRsocRAD77myS1Avk",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "All Star Irrigation",
+      "address": "5413 NW 116th St, Oklahoma City, OK 73162, USA",
+      "rating": 4.2,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0fINeV8DsocR9HyhPfZZun4",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Quality Irrigation, Inc.",
+      "address": "3824 NE 104th St, Oklahoma City, OK 73131, USA",
+      "rating": 5,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRf_gm6IesocRxKJ4X8iQYE4",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Andy's Sprinkler, Drainage & Lighting",
+      "address": "13509 Railway Dr # D, Oklahoma City, OK 73114, USA",
+      "rating": 4.9,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ5zE1C1IfsocRNV3MXahlz2U",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Sooner Okie Irrigation & Drains",
+      "address": "5709 SW 21st St, Oklahoma City, OK 73128, USA",
+      "rating": 3.8,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJU7bBeiYOsocR1Pz0oA_pPXE",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Midwest Irrigation",
+      "address": "16301 N Rockwell Ave Bld D, Edmond, OK 73013, USA",
+      "rating": 4.4,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFeznb-QCsocRAR29Nn55Hx4",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Grooms Irrigation Co",
+      "address": "1400 E Hefner Rd, Oklahoma City, OK 73131, USA",
+      "rating": 4.1,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJD0qDpE4isocRAqjJraxkyoc",
+      "open_now": true,
+      "category": "irrigation system",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Forest Tree Service LLC",
+      "address": "5820 NW 58th St, Oklahoma City, OK 73122, USA",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB6QKL0ntsYcRu6PwG5HJMUA",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "R&B Trees",
+      "address": "814 Overhead Dr, Oklahoma City, OK 73128, USA",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJIVzJD8kPsocR_fnAgfKjH38",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Arbor Masters of Oklahoma City",
+      "address": "8405 SW 15th St, Oklahoma City, OK 73128, USA",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJsRaYVPwOsocRSS9RBvV0q_U",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Dennis's Tree Service - Tree Removal, Tree Trimming, Tree Service in Central Oklahoma City OK",
+      "address": "3129 W Park Pl, Oklahoma City, OK 73107, USA",
+      "rating": 4.4,
+      "types": [
+        "general_contractor",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJDyXvQ2YasocRoP-fN2LPgcI",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Oklahoma City Tree Service Experts",
+      "address": "106 NW 12th St, Oklahoma City, OK 73103, USA",
+      "rating": 4.3,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7XTYkg8XsocR0zlgDKWHEy8",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Cross Timbers Arborist",
+      "address": "3500 S Brunson St, Oklahoma City, OK 73119, USA",
+      "rating": 4.5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJqRAeQ-wRsocRBixrXWZlkj4",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    },
+    {
+      "name": "Woodchuck Tree Service",
+      "address": "15200 N May Ave, Edmond, OK 73013, USA",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJaYlKvX3CVqoR0dBSknOgnwI",
+      "open_now": true,
+      "category": "tree service",
+      "potential_website": true,
+      "notes": ""
+    }
+  ]
+}
