@@ -1,0 +1,45 @@
+[build]
+  command = "npm install"
+  functions = "netlify/functions"
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Domain redirects (will be auto-configured when custom domain added)
+[[redirects]]
+  from = "http://nicelawnokc.com"
+  to = "https://nicelawnokc.com"
+  status = 301
+
+[[redirects]]
+  from = "http://www.nicelawnokc.com"
+  to = "https://nicelawnokc.com"
+  status = 301
+
+[[redirects]]
+  from = "https://www.nicelawnokc.com"
+  to = "https://nicelawnokc.com"
+  status = 301
+
+# Site redirects
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+# CORS for functions
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

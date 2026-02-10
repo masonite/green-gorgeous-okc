@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>February Lawn Care Guide | NiceLawnOKC.com</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .newsletter-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .tagline {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            font-size: 14px;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Content sections */
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            color: #2e7d32;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8f5e9;
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 60px;
+            height: 2px;
+            background-color: #4caf50;
+        }
+        
+        .tip-box {
+            background-color: #f1f8e9;
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .tip-title {
+            color: #2e7d32;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .service-card {
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .service-name {
+            color: #2e7d32;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .service-rating {
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+        
+        /* Call to action */
+        .cta-section {
+            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        
+        .cta-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: #2e7d32;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .cta-button:hover {
+            background-color: transparent;
+            color: white;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .footer-links {
+            margin: 20px 0;
+        }
+        
+        .footer-link {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+        
+        .social-icons {
+            margin: 20px 0;
+        }
+        
+        .social-icon {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #4caf50;
+            color: white;
+            border-radius: 50%;
+            line-height: 40px;
+            margin: 0 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            background-color: #2e7d32;
+        }
+        
+        .unsubscribe {
+            font-size: 12px;
+            color: #999;
+            margin-top: 20px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px 15px;
+            }
+            
+            .header {
+                padding: 30px 15px;
+            }
+            
+            .section-title {
+                font-size: 20px;
+            }
+            
+            .cta-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="newsletter-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">NiceLawnOKC</div>
+            <div class="tagline">Your Trusted Oklahoma City Lawn Care Resource</div>
+            <div class="date">February 2026 | Oklahoma City Edition</div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Introduction -->
+            <div class="section">
+                <h1 class="section-title">Welcome to Your February Lawn Care Guide!</h1>
+                <p>Hello Oklahoma City homeowners! As we navigate the transition from winter to early spring, February presents unique opportunities to prepare your lawn for the growing season ahead. Oklahoma's unpredictable weather patterns mean now is the perfect time to get ahead of common lawn issues.</p>
+                <p>In this edition, we'll cover essential February lawn care tasks, recommend trusted local services, and provide DIY tips to keep your lawn healthy and vibrant.</p>
+            </div>
+            
+            <!-- Seasonal Tips -->
+            <div class="section">
+                <h2 class="section-title">🌱 February Lawn Care Tips for Oklahoma</h2>
+                
+                <div class="tip-box">
+                    <div class="tip-title">1. Soil Testing & Analysis</div>
+                    <p>According to Oklahoma State University Extension, February is the ideal time for soil testing. Oklahoma soils often need pH adjustments and specific nutrient balancing. Take 10-15 soil cores from your lawn (3-4 inches deep) and bring them to your local County Extension office for analysis. Proper pH (6.0-6.5) ensures all essential nutrients are available for optimal turf growth.</p>
+                </div>
+                
+                <div class="tip-box">
+                    <div class="tip-title">2. Winter Weed Control</div>
+                    <p>February is prime time for post-emergence winter weed control. Target weeds like annual bluegrass, chickweed, and henbit while they're young and actively growing. For bermudagrass lawns, consider applying Roundup when the grass is fully dormant (usually January or early February) for effective control.</p>
+                </div>
+                
+                <div class="tip-box">
+                    <div class="tip-title">3. Thatch Removal Preparation</div>
+                    <p>Late February is the perfect time to prepare for thatch removal on warm-season lawns (bermudagrass and zoysiagrass). Check your thatch layer - if it's thicker than 0.5 inches, plan to dethatch just before spring green-up. Excessive thatch impedes water, nutrient, and air movement into the soil.</p>
+                </div>
+                
+                <div class="tip-box">
+                    <div class="tip-title">4. Equipment Maintenance</div>
+                    <p>Sharpen mower blades and service your lawn equipment now. Dull blades bruise grass tips and create a dull appearance. Properly adjusted equipment ensures clean cuts and healthier grass. Also, check irrigation systems for winter damage and prepare for spring activation.</p>
+                </div>
+                
+                <div class="tip-box">
+                    <div class="tip-title">5. Plan Your Fertilization Schedule</div>
+                    <p>Based on OSU recommendations, bermudagrass lawns need about 5 pounds of nitrogen per 1000 sq ft annually. Plan your applications: spring complete fertilizer, summer slow-release applications, and fall fertilization. Cool-season grasses like tall fescue need most fertilizer in fall with minimal summer applications.</p>
+                </div>
+            </div>
+            
+            <!-- Local Services -->
+            <div class="section">
+                <h2 class="section-title">🏆 Recommended Local Lawn Care Services</h2>
+                <p>We've vetted these Oklahoma City area services for quality, reliability, and customer satisfaction:</p>
+                
+                <div class="service-card">
+                    <div class="service-name">GreenThumb Oklahoma City</div>
+                    <div class="service-rating">★★★★★ (4.8/5)</div>
+                    <p><strong>Specialties:</strong> Complete lawn maintenance, fertilization programs, weed control, aeration</p>
+                    <p><strong>Why we recommend them:</strong> Certified technicians, OSU-approved methods, free soil testing with annual contracts</p>
+                    <p><strong>Contact:</strong> (405) 555-0123 | www.greenthumbokc.com</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-name">Sooner State Lawn Care</div>
+                    <div class="service-rating">★★★★☆ (4.6/5)</div>
+                    <p><strong>Specialties:</strong> Organic lawn care, drought-resistant landscaping, irrigation system installation</p>
+                    <p><strong>Why we recommend them:</strong> Eco-friendly approach, water conservation experts, local family-owned business</p>
+                    <p><strong>Contact:</strong> (405) 555-0124 | www.soonersstatelawn.com</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-name">OKC Lawn Doctors</div>
+                    <div class="service-rating">★★★★★ (4.9/5)</div>
+                    <p><strong>Specialties:</strong> Disease and pest control, lawn renovation, commercial properties</p>
+                    <p><strong>Why we recommend them:</strong> Quick response times, comprehensive diagnostics, 24/7 emergency service</p>
+                    <p><strong>Contact:</strong> (405) 555-0125 | www.okclawndoctors.com</p>
+                </div>
+            </div>
+            
+            <!-- DIY Section -->
+            <div class="section">
+                <h2 class="section-title">🔧 DIY Lawn Maintenance Tips</h2>
+                
+                <div class="tip-box">
+                    <div class="tip-title">Proper Mowing Techniques for Oklahoma Lawns</div>
+                    <p><strong>Bermudagrass:</strong> Cut at 0.5-0.75 inches May-August, raise to 1.0-1.25 inches September-April</p>
+                    <p><strong>Tall Fescue:</strong> Maintain at 3.0 inches during summer, 2.5 inches in cooler months</p>
+                    <p><strong>Pro Tip:</strong> Never remove more than ⅓ of leaf height at one mowing. Use sharp blades and vary mowing patterns to reduce soil compaction.</p>
+                </div>
+                
+                <div class="tip-box">
+                    <div class="tip-title">Smart Watering Practices</div>
+                    <p>Oklahoma's clay soils require deep, infrequent watering. Water only when grass shows first signs of wilt (footprinting, blue-gray color). Apply enough water to moisten soil to 6-inch depth. Early morning watering reduces evaporation and disease risk.</p>
+                </div>
+                
+                <div class="tip-box">
+                    <div class="tip-title">Don't Bag Your Clippings!</div>
+                    <p>OSU Extension recommends leaving grass clippings on the lawn. They decompose quickly, returning valuable nutrients (especially nitrogen) to the soil. This practice saves time, reduces landfill waste, and feeds your lawn naturally.</p>
+                </div>
+            </div>
+            
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2 class="cta-title">Ready for a Picture-Perfect Lawn?</h2>
+                <p>Get a <strong>FREE lawn assessment</strong> from our partner services when you mention "NiceLawnOKC"</p>
+                <p>Subscribe to our premium newsletter for <strong>exclusive discounts, seasonal guides, and priority access</strong> to local lawn care experts.</p>
+                <a href="https://nicelawnokc.com/subscribe" class="cta-button">Subscribe & Get Free Assessment</a>
+                <p style="margin-top: 15px; font-size: 14px; opacity: 0.9;">Limited time offer: First 50 subscribers receive 15% off their first service!</p>
+            </div>
+            
+            <!-- Subscription Incentives -->
+            <div class="section">
+                <h2 class="section-title">🎁 Exclusive Subscriber Benefits</h2>
+                <p>When you subscribe to NiceLawnOKC Premium:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li><strong>Monthly Lawn Care Calendar</strong> tailored to Oklahoma City climate</li>
+                    <li><strong>Discount Codes</strong> for local lawn care services (10-20% off)</li>
+                    <li><strong>Priority Access</strong> to seasonal workshops and webinars</li>
+                    <li><strong>Free Soil Test Kit</strong> with annual subscription</li>
+                    <li><strong>Quarterly "Ask the Expert" sessions</strong> with OSU Extension specialists</li>
+                    <li><strong>Early Bird Pricing</strong> on lawn care products and services</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="logo" style="color: white; margin-bottom: 20px;">NiceLawnOKC</div>
+            <p>Your trusted resource for Oklahoma City lawn care since 2023</p>
+            
+            <div class="footer-links">
+                <a href="https://nicelawnokc.com" class="footer-link">Home</a>
+                <a href="https://nicelawnokc.com/resources" class="footer-link">Resources</a>
+                <a href="https://nicelawnokc.com/services" class="footer-link">Services Directory</a>
+                <a href="https://nicelawnokc.com/contact" class="footer-link">Contact Us</a>
+                <a href="https://nicelawnokc.com/blog" class="footer-link">Blog</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="https://facebook.com/nicelawnokc" class="social-icon">FB</a>
+                <a href="https://twitter.com/nicelawnokc" class="social-icon">TW</a>
+                <a href="https://instagram.com/nicelawnokc" class="social-icon">IG</a>
+                <a href="https://pinterest.com/nicelawnokc" class="social-icon">PIN</a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 14px; opacity: 0.8;">
+                123 Green Street, Oklahoma City, OK 73102<br>
+                Phone: (405) 555-0100 | Email: info@nicelawnokc.com
+            </p>
+            
+            <div class="unsubscribe">
+                You're receiving this email because you subscribed to NiceLawnOKC newsletter.<br>
+                <a href="https://nicelawnokc.com/unsubscribe" style="color: #4caf50;">Unsubscribe</a> | 
+                <a href="https://nicelawnokc.com/preferences" style="color: #4caf50;">Update Preferences</a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 12px; opacity: 0.6;">
+                © 2026 NiceLawnOKC.com. All rights reserved.<br>
+                This newsletter provides general lawn care information. Always consult with certified professionals for specific lawn care needs.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

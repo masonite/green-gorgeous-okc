@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-02-13",
+    "title": "OKC Thunder vs. Lakers",
+    "category": "sports",
+    "location": "Paycom Center",
+    "price": "$45+",
+    "description": "NBA basketball game"
+  },
+  {
+    "date": "2026-02-14",
+    "title": "Valentine's Comedy Show",
+    "category": "comedy",
+    "location": "Bricktown Comedy Club",
+    "price": "$25",
+    "description": "Special Valentine's Day comedy event"
+  },
+  {
+    "date": "2026-02-15",
+    "title": "Farmers Market at Scissortail Park",
+    "category": "food",
+    "location": "Scissortail Park",
+    "price": "Free",
+    "description": "Local vendors, fresh produce, artisanal goods"
+  },
+  {
+    "date": "2026-02-16",
+    "title": "OKC Tech Meetup",
+    "category": "networking",
+    "location": "Starspace46",
+    "price": "Free with RSVP",
+    "description": "Monthly tech community gathering"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Wine Tasting at Broadway Wine Merchants",
+    "category": "dining",
+    "location": "Broadway Wine Merchants",
+    "price": "$35",
+    "description": "Weekly wine tasting event"
+  }
+]

@@ -1,6 +1,6 @@
-# Green & Gorgeous OKC - Newsletter Landing Page
+# Nice Lawn OKC - Newsletter Landing Page
 
-Lead generation landing page for the "Green & Gorgeous OKC" lawn care newsletter. Captures email + ZIP code from Oklahoma City homeowners, generating qualified leads to sell to local lawn service companies.
+Lead generation landing page for the "Nice Lawn OKC" lawn care newsletter. Captures email + ZIP code from Oklahoma City homeowners, generating qualified leads to sell to local lawn service companies.
 
 ## Quick Start
 
@@ -63,13 +63,54 @@ Currently logs to console. Uncomment your platform's code in that function.
 - **Fonts**: Poppins (headings), Open Sans (body) via Google Fonts
 - **Responsive**: Desktop → Tablet (992px) → Mobile (640px) → Small (380px)
 
-## Deployment
+## Backend Functions & Database
 
-Static files -- deploy anywhere:
-- **GitHub Pages**: Push to `gh-pages` branch
-- **Netlify**: Drag and drop the folder
-- **Vercel**: `vercel --prod`
-- **S3 + CloudFront**: Upload to bucket, enable static hosting
+This project now includes serverless backend functionality:
+
+### Netlify Functions
+- **`/.netlify/functions/subscribe`** - Handles newsletter signups, stores in SQLite database
+- **`/.netlify/functions/admin-signups`** - Admin endpoint to view signups (Basic auth protected)
+
+### Database
+- **SQLite database** stored in `/tmp/newsletter_db/signups.db`
+- Tables: `signups`, `newsletter_logs`
+- Persists between function executions on Netlify
+
+### Admin Dashboard
+- **URL:** `/admin` or `/admin.html`
+- **Default credentials:** `admin` / `test123`
+- **Features:** View all signups, statistics, ZIP code distribution, pagination
+
+### Environment Variables (for production)
+```bash
+ADMIN_USER=your_secure_username
+ADMIN_PASS=your_secure_password
+```
+
+## Production Deployment
+
+**Live Site:** https://nicelawnokc.com
+
+## Development Deployment
+
+### Netlify (Recommended)
+- Auto-deploys from GitHub
+- Functions automatically built and deployed
+- Database persists in function execution environment
+
+### Local Development
+```bash
+# Install dependencies
+npm install
+
+# Test functions locally (requires Netlify CLI)
+netlify dev
+```
+
+### Static Hosting Alternatives
+- **GitHub Pages**: Push to `gh-pages` branch (frontend only, no functions)
+- **Vercel**: `vercel --prod` (similar function support)
+- **S3 + CloudFront**: Upload to bucket, enable static hosting (frontend only)
 
 ## Revenue Model
 

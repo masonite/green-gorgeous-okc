@@ -9,10 +9,12 @@
   const CONFIG = {
     // Valid OKC-area ZIP codes (Oklahoma ZIPs start with 73/74)
     validZipPrefixes: ['73', '74'],
+    // Site domain (update after domain purchase)
+    canonicalDomain: 'nicelawnokc.com',
     // Redirect URL after successful signup (update when connecting backend)
     thankYouUrl: 'thank-you.html',
     // Simulate backend delay (ms) — remove when connecting real backend
-    fakeSubmitDelay: 1200,
+    fakeSubmitDelay: 0,
   };
 
   // ─── DOM Ready ───────────────────────────────
@@ -175,47 +177,51 @@
   }
 
   function submitForm(data, form, submitBtn) {
-    /*
-     * ─── BACKEND INTEGRATION POINT ─────────────
-     * 
-     * Replace the setTimeout below with your actual API call.
-     * Examples:
-     *
-     * 1. Mailchimp / ConvertKit:
-     *    fetch('https://your-api-endpoint.com/subscribe', {
-     *      method: 'POST',
-     *      headers: { 'Content-Type': 'application/json' },
-     *      body: JSON.stringify(data)
-     *    })
-     *
-     * 2. Google Sheets (via Apps Script):
-     *    fetch('https://script.google.com/macros/s/YOUR_ID/exec', {
-     *      method: 'POST',
-     *      body: JSON.stringify(data)
-     *    })
-     *
-     * 3. Formspree:
-     *    fetch('https://formspree.io/f/YOUR_FORM_ID', {
-     *      method: 'POST',
-     *      headers: { 'Content-Type': 'application/json' },
-     *      body: JSON.stringify(data)
-     *    })
-     */
-
-    // Simulated submission — replace with real API call
-    setTimeout(function () {
+    // Submit to Netlify Function backend
+    fetch('/.netlify/functions/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
+    .then(response => {
       submitBtn.classList.remove('loading');
       submitBtn.disabled = false;
-
-      // Show inline success or redirect
-      showFormSuccess(form);
-
-      // Store in localStorage as backup
+      
+      if (response.ok) {
+        return response.json().then(result => {
+          showFormSuccess(form, result.message || 'Successfully subscribed!');
+          
+          // Store in localStorage as backup
+          storeSignupLocally(data);
+          
+          // Log success with additional info
+          console.log('Newsletter signup successful:', result);
+          
+          // Show stats if available
+          if (result.stats) {
+            console.log(`You're subscriber #${result.stats.total_subscribers}`);
+          }
+        });
+      } else {
+        return response.json().then(error => {
+          if (response.status === 409) {
+            // Email already exists
+            showFormError(form, 'This email is already subscribed. Thank you!');
+          } else {
+            showFormError(form, error.error || 'Submission failed. Please try again.');
+          }
+        });
+      }
+    })
+    .catch(error => {
+      submitBtn.classList.remove('loading');
+      submitBtn.disabled = false;
+      
+      // Fallback to localStorage if backend fails
+      console.warn('Backend unavailable, using localStorage fallback:', error);
       storeSignupLocally(data);
-
-      // Optional: redirect to thank you page
-      // window.location.href = CONFIG.thankYouUrl;
-    }, CONFIG.fakeSubmitDelay);
+      showFormSuccess(form, 'Subscribed (offline mode)! You\'ll be added when connection is restored.');
+    });
   }
 
   // ─── Validation ──────────────────────────────

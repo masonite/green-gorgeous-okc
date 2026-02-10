@@ -1,0 +1,17 @@
+{
+  "name": "green-gorgeous-okc",
+  "version": "1.0.0",
+  "description": "Lawn care newsletter landing page with backend functions",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.1.1",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.0.0"
+  }
+}
