@@ -1,0 +1,88 @@
+{
+  "name": "GreenMachine",
+  "description": "Bold, high-energy lawn care template with lime green accent for modern, performance-focused businesses",
+  "accent_color": "#a3e635",
+  "category": "lawn-care",
+  "version": "1.0.0",
+  "features": [
+    "Mobile responsive",
+    "Dark modern theme",
+    "Pricing table",
+    "Feature highlights",
+    "Call to action",
+    "Bold typography",
+    "Performance-focused design"
+  ],
+  "template_type": "bold",
+  "css_file": "greenmachine.css",
+  "html_file": "greenmachine.html",
+  "content_slots": {
+    "business_name": "{{BUSINESS_NAME}}",
+    "primary_service": "{{PRIMARY_SERVICE}}",
+    "city": "{{CITY}}",
+    "phone": "{{PHONE}}",
+    "email": "{{EMAIL}}",
+    "about_text": "Commercial-grade equipment. Cutting-edge techniques. Results that dominate.",
+    "features": [
+      {
+        "name": "Fast Turnaround",
+        "description": "Same-week service, every time. We don't waste your time."
+      },
+      {
+        "name": "Guaranteed Results",
+        "description": "Not satisfied? We come back and make it right—free."
+      },
+      {
+        "name": "Award Winning",
+        "description": "Voted #1 lawn service 3 years running by local press."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Starter",
+        "price": "$49",
+        "period": "/week",
+        "features": [
+          "Weekly mowing",
+          "Edge trimming",
+          "Blow cleanup"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$89",
+        "period": "/week",
+        "features": [
+          "Everything in Starter",
+          "Fertilization",
+          "Weed control",
+          "Priority scheduling"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Elite",
+        "price": "$149",
+        "period": "/week",
+        "features": [
+          "Everything in Pro",
+          "Aeration",
+          "Overseeding",
+          "Dedicated crew"
+        ]
+      }
+    ]
+  },
+  "required_tags": [
+    "{{BUSINESS_NAME}}",
+    "{{PRIMARY_SERVICE}}",
+    "{{CITY}}",
+    "{{PHONE}}",
+    "{{EMAIL}}"
+  ],
+  "optional_tags": [
+    "{{ABOUT_TEXT}}",
+    "{{FEATURES_LIST}}",
+    "{{PRICING_TABLE}}"
+  ]
+}

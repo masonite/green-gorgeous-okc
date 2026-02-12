@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCut Template Test - GreenThumb Lawn Care</title>
+    <link rel="stylesheet" href="freshcut.css">
+    <style>
+        body { font-family: sans-serif; padding: 2rem; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: white; border-radius: 8px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #10b981; margin-bottom: 1rem; }
+        .success { color: #10b981; font-weight: bold; }
+        .info { color: #6b7280; margin-bottom: 1rem; }
+        iframe { width: 100%; height: 600px; border: 2px solid #e5e7eb; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>FreshCut Template Test</h1>
+            <p class="info">Business: <strong>GreenThumb Lawn Care</strong></p>
+            <p class="info">Service: Lawn Maintenance in Oklahoma City</p>
+            <p class="success">✅ Template successfully populated with sample data!</p>
+        </div>
+        
+        <div class="card">
+            <h2>Preview:</h2>
+            <iframe src="freshcut-populated.html" title="FreshCut Template Preview"></iframe>
+            <p style="margin-top: 1rem;">
+                <a href="freshcut-populated.html" target="_blank">Open in new tab</a> | 
+                <a href="freshcut.css" target="_blank">View CSS</a>
+            </p>
+        </div>
+        
+        <div class="card">
+            <h2>Sample Data Used:</h2>
+            <pre style="background: #f9fafb; padding: 1rem; border-radius: 4px; overflow: auto;">
+{
+  "business_name": "GreenThumb Lawn Care",
+  "primary_service": "Lawn Maintenance",
+  "city": "Oklahoma City",
+  "phone": "(405) 555-0123",
+  "email": "info@greenthumbokc.com",
+  "about_text": "Professional lawn care that transforms your outdoor space into a pristine, magazine-worthy landscape.",
+  "services": [
+    {
+      "name": "Lawn Mowing",
+      "description": "Weekly and bi-weekly mowing with precision cutting patterns."
+    },
+    {
+      "name": "Irrigation",
+      "description": "Smart sprinkler systems designed for optimal water usage."
+    },
+    {
+      "name": "Fertilization",
+      "description": "Seasonal treatments to keep your grass thick and green."
+    }
+  ]
+}
+            </pre>
+        </div>
+    </div>
+</body>
+</html>

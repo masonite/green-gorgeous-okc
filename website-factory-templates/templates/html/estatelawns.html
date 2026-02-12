@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{BUSINESS_NAME}} - Premium {{PRIMARY_SERVICE}}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0c0b09;
+        }
+        
+        .font-heading {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+        }
+        
+        .text-gradient-agency {
+            background: linear-gradient(135deg, #c9a84c 0%, #b8942c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+<div class="min-h-screen" style="font-family: 'Inter', sans-serif; background: #0c0b09">
+      <nav class="fixed top-0 w-full z-50" style="background: rgba(12,11,9,0.9); backdrop-filter: blur(16px)">
+        <div class="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <i data-lucide="crown" class="w-6 h-6" style="color: #c9a84c"></i>
+            <span class="font-heading text-xl tracking-[0.2em] uppercase" style="color: #c9a84c">{{BUSINESS_NAME}}</span>
+          </div>
+          <div class="hidden md:flex items-center gap-10 text-xs tracking-[0.15em] uppercase" style="color: #8a8275">
+            <a href="#services" class="cursor-pointer hover:text-[#c9a84c] transition-colors">Services</a>
+            <a href="#testimonial" class="cursor-pointer hover:text-[#c9a84c] transition-colors">Portfolio</a>
+            <a href="#cta" class="cursor-pointer hover:text-[#c9a84c] transition-colors">Contact</a>
+          </div>
+          <button class="text-xs tracking-[0.15em] uppercase px-6 py-3 border transition-colors" style="border-color: #c9a84c; color: #c9a84c">
+            Private Consultation
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="relative min-h-screen flex items-end">
+        <div class="absolute inset-0">
+          <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Estate lawn" class="w-full h-full object-cover" />
+          <div class="absolute inset-0" style="background: linear-gradient(to top, #0c0b09 0%, rgba(12,11,9,0.4) 50%, rgba(12,11,9,0.2) 100%)"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-8 pb-24 w-full">
+          <div class="max-w-2xl">
+            <div class="w-16 h-px mb-8" style="background: #c9a84c"></div>
+            <h1 class="font-heading text-5xl md:text-7xl font-light leading-tight mb-6 text-white">
+              The Art of<br />
+              <span style="color: #c9a84c">Exceptional</span> Grounds
+            </h1>
+            <p class="text-lg leading-relaxed mb-10" style="color: #8a8275">
+              Bespoke landscape management for distinguished properties. Where craftsmanship meets the extraordinary.
+            </p>
+            <div class="flex gap-6">
+              <button class="px-10 py-4 text-sm tracking-[0.1em] uppercase font-semibold text-black transition-colors" style="background: #c9a84c">
+                Request Consultation
+              </button>
+              <button class="px-10 py-4 text-sm tracking-[0.1em] uppercase font-semibold border transition-colors flex items-center gap-2" style="border-color: #8a8275; color: #8a8275">
+                <i data-lucide="phone" class="w-4 h-4"></i> Call Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="py-28 scroll-mt-20" style="background: #0c0b09">
+        <div class="max-w-7xl mx-auto px-8">
+          <div class="text-center mb-20">
+            <p class="text-xs tracking-[0.3em] uppercase mb-4" style="color: #c9a84c">Our Expertise</p>
+            <h2 class="font-heading text-4xl font-light text-white">Comprehensive Estate Care</h2>
+          </div>
+          <div class="grid md:grid-cols-3 gap-px" style="background: #2a2720">
+            <div class="p-12 group cursor-pointer hover:bg-[#1a1812] transition-colors" style="background: #0c0b09">
+              <i data-lucide="trees" class="w-8 h-8 mb-8" style="color: #c9a84c"></i>
+              <h3 class="font-heading text-xl text-white mb-4">Grounds Management</h3>
+              <p class="text-sm leading-relaxed mb-6" style="color: #8a8275">Full-service maintenance for expansive estate properties with dedicated crews.</p>
+              <span class="text-xs tracking-[0.1em] uppercase flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity" style="color: #c9a84c">
+                Explore <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </span>
+            </div>
+            <div class="p-12 group cursor-pointer hover:bg-[#1a1812] transition-colors" style="background: #0c0b09">
+              <i data-lucide="flower-2" class="w-8 h-8 mb-8" style="color: #c9a84c"></i>
+              <h3 class="font-heading text-xl text-white mb-4">Garden Design</h3>
+              <p class="text-sm leading-relaxed mb-6" style="color: #8a8275">Curated botanical installations that complement your estate's architecture.</p>
+              <span class="text-xs tracking-[0.1em] uppercase flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity" style="color: #c9a84c">
+                Explore <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </span>
+            </div>
+            <div class="p-12 group cursor-pointer hover:bg-[#1a1812] transition-colors" style="background: #0c0b09">
+              <i data-lucide="sparkles" class="w-8 h-8 mb-8" style="color: #c9a84c"></i>
+              <h3 class="font-heading text-xl text-white mb-4">Seasonal Programs</h3>
+              <p class="text-sm leading-relaxed mb-6" style="color: #8a8275">Year-round care plans tailored to your property's unique microclimate.</p>
+              <span class="text-xs tracking-[0.1em] uppercase flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity" style="color: #c9a84c">
+                Explore <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quote -->
+      <section id="testimonial" class="py-28 scroll-mt-20" style="background: #14130f">
+        <div class="max-w-3xl mx-auto px-8 text-center">
+          <i data-lucide="crown" class="w-8 h-8 mx-auto mb-8" style="color: #c9a84c"></i>
+          <blockquote class="font-heading text-2xl md:text-3xl font-light text-white leading-relaxed mb-8">
+            "{{BUSINESS_NAME}} doesn't just maintain our property—they elevate it. Their attention to detail is unmatched."
+          </blockquote>
+          <div class="w-12 h-px mx-auto mb-4" style="background: #c9a84c"></div>
+          <p class="text-sm tracking-[0.1em] uppercase" style="color: #8a8275">The Wellington Residence</p>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="cta" class="py-28 scroll-mt-20" style="background: #0c0b09">
+        <div class="max-w-4xl mx-auto px-8 text-center">
+          <p class="text-xs tracking-[0.3em] uppercase mb-4" style="color: #c9a84c">Begin Your Journey</p>
+          <h2 class="font-heading text-4xl font-light text-white mb-6">Your Estate Deserves Extraordinary</h2>
+          <p class="mb-10" style="color: #8a8275">Schedule a private property assessment with our head landscaper.</p>
+          <button class="px-12 py-5 text-sm tracking-[0.15em] uppercase font-semibold text-black" style="background: #c9a84c">
+            Schedule Private Assessment
+          </button>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-10 border-t" style="border-color: #2a2720">
+        <div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div class="flex items-center gap-3">
+            <i data-lucide="crown" class="w-5 h-5" style="color: #c9a84c"></i>
+            <span class="font-heading text-sm tracking-[0.2em] uppercase" style="color: #c9a84c">{{BUSINESS_NAME}}</span>
+          </div>
+          <p class="text-xs" style="color: #5a5548">© 2026 {{BUSINESS_NAME}}. All rights reserved.</p>
+          <p class="text-xs" style="color: #5a5548">{{CITY}} | {{PHONE}}</p>
+        </div>
+      </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</div>
+</body>
+</html>

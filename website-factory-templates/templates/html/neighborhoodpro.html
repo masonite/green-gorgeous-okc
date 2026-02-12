@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{BUSINESS_NAME}} - Friendly {{PRIMARY_SERVICE}}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #ffffff;
+        }
+        
+        .font-heading {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+        }
+        
+        .text-gradient-agency {
+            background: linear-gradient(135deg, #ff6b35 0%, #e55a2b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+<div class="min-h-screen" style="font-family: 'Inter', sans-serif; background: #ffffff">
+      <nav class="fixed top-0 w-full z-50 bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <div class="w-9 h-9 rounded-full flex items-center justify-center" style="background: #ff6b35">
+              <i data-lucide="smile" class="w-5 h-5 text-white"></i>
+            </div>
+            <span class="font-heading text-xl font-bold" style="color: #2d3436">{{BUSINESS_NAME}}</span>
+          </div>
+          <div class="hidden md:flex items-center gap-8 text-sm font-medium" style="color: #636e72">
+            <a href="#why" class="cursor-pointer hover:text-[#ff6b35] transition-colors">Why Us</a>
+            <a href="#services" class="cursor-pointer hover:text-[#ff6b35] transition-colors">Services</a>
+            <a href="#cta" class="cursor-pointer hover:text-[#ff6b35] transition-colors">Contact</a>
+          </div>
+          <button class="text-white px-6 py-2.5 rounded-full text-sm font-bold flex items-center gap-2" style="background: #ff6b35">
+            <i data-lucide="phone" class="w-4 h-4"></i> {{PHONE}}
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="pt-20">
+        <div class="relative overflow-hidden" style="background: linear-gradient(135deg, #fff9f5 0%, #fff0e6 100%)">
+          <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style="background: #fff0e6; color: #ff6b35">
+                <i data-lucide="heart" class="w-4 h-4"></i> Your Neighbors Love Us!
+              </div>
+              <h1 class="font-heading text-5xl md:text-6xl font-bold leading-tight mb-6" style="color: #2d3436">
+                The {{PRIMARY_SERVICE}} Your <span style="color: #ff6b35">Neighborhood</span> Trusts
+              </h1>
+              <p class="text-lg mb-8 leading-relaxed" style="color: #636e72">
+                Friendly, reliable, affordable lawn care. We treat every yard like our own backyard. 🏡
+              </p>
+              <div class="flex flex-wrap gap-4">
+                <button class="text-white px-8 py-4 rounded-full font-bold text-lg" style="background: #ff6b35">
+                  Get a Free Quote! 🎉
+                </button>
+                <button class="px-8 py-4 rounded-full font-bold text-lg border-2" style="border-color: #ff6b35; color: #ff6b35">
+                  See Pricing
+                </button>
+              </div>
+              <div class="flex items-center gap-4 mt-8">
+                <div class="flex -space-x-2">
+                  <div class="w-10 h-10 rounded-full bg-orange-100 border-2 border-white flex items-center justify-center text-lg">😊</div>
+                  <div class="w-10 h-10 rounded-full bg-orange-100 border-2 border-white flex items-center justify-center text-lg">😄</div>
+                  <div class="w-10 h-10 rounded-full bg-orange-100 border-2 border-white flex items-center justify-center text-lg">🥰</div>
+                  <div class="w-10 h-10 rounded-full bg-orange-100 border-2 border-white flex items-center justify-center text-lg">😃</div>
+                </div>
+                <div>
+                  <div class="flex gap-0.5">
+                    <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                    <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                    <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                    <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                    <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+                  </div>
+                  <p class="text-xs mt-0.5" style="color: #636e72">Loved by 300+ families in {{CITY}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="rounded-3xl overflow-hidden shadow-xl" style="aspect-ratio: 4/3">
+                <img src="https://images.unsplash.com/photo-1598894597313-b5e5ab3f8cd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Neighborhood lawn" class="w-full h-full object-cover" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Us -->
+      <section id="why" class="py-20 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="font-heading text-4xl font-bold text-center mb-4" style="color: #2d3436">Why Families Choose Us</h2>
+          <p class="text-center mb-14" style="color: #636e72">We're not just a lawn company—we're your neighbors.</p>
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow text-center border border-gray-100">
+              <div class="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center" style="background: #00b89415">
+                <i data-lucide="thumbs-up" class="w-8 h-8" style="color: #00b894"></i>
+              </div>
+              <h3 class="font-heading text-xl font-bold mb-3" style="color: #2d3436">Honest Pricing</h3>
+              <p class="text-sm leading-relaxed" style="color: #636e72">What we quote is what you pay. No surprise fees, ever.</p>
+            </div>
+            <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow text-center border border-gray-100">
+              <div class="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center" style="background: #ff6b3515">
+                <i data-lucide="users" class="w-8 h-8" style="color: #ff6b35"></i>
+              </div>
+              <h3 class="font-heading text-xl font-bold mb-3" style="color: #2d3436">Family Owned</h3>
+              <p class="text-sm leading-relaxed" style="color: #636e72">Run by the Johnsons since 2012. We know this community.</p>
+            </div>
+            <div class="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-shadow text-center border border-gray-100">
+              <div class="w-16 h-16 rounded-2xl mx-auto mb-6 flex items-center justify-center" style="background: #e8439315">
+                <i data-lucide="heart" class="w-8 h-8" style="color: #e84393"></i>
+              </div>
+              <h3 class="font-heading text-xl font-bold mb-3" style="color: #2d3436">Kid & Pet Safe</h3>
+              <p class="text-sm leading-relaxed" style="color: #636e72">All products are family-friendly and pet-safe. Promise!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Grid -->
+      <section id="services" class="py-20 scroll-mt-20" style="background: #f8f9fa">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="font-heading text-4xl font-bold text-center mb-14" style="color: #2d3436">What We Offer</h2>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Lawn Mowing</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Edge Trimming</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Leaf Removal</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Hedge Shaping</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Fertilizer</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Weed Control</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Mulch & Beds</span>
+            </div>
+            <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-100">
+              <i data-lucide="check-circle" class="w-6 h-6 mx-auto mb-3" style="color: #00b894"></i>
+              <span class="font-semibold text-sm" style="color: #2d3436">Spring Cleanup</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="cta" class="py-20 scroll-mt-20" style="background: #ff6b35">
+        <div class="max-w-4xl mx-auto px-6 text-center text-white">
+          <h2 class="font-heading text-4xl font-bold mb-4">Join Your Neighbors! 🏡</h2>
+          <p class="text-white/80 text-lg mb-8">Get your first mow free when you sign up for a monthly plan.</p>
+          <button class="bg-white px-10 py-4 rounded-full font-bold text-lg" style="color: #ff6b35">
+            Claim Your Free Mow
+          </button>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-white py-10 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div class="flex items-center gap-2">
+            <div class="w-7 h-7 rounded-full flex items-center justify-center" style="background: #ff6b35">
+              <i data-lucide="smile" class="w-4 h-4 text-white"></i>
+            </div>
+            <span class="font-heading font-bold" style="color: #2d3436">{{BUSINESS_NAME}}</span>
+          </div>
+          <p class="text-sm" style="color: #636e72">© 2026 {{BUSINESS_NAME}}. All rights reserved.</p>
+          <p class="text-sm" style="color: #636e72">{{CITY}} | {{PHONE}}</p>
+        </div>
+      </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</div>
+</body>
+</html>

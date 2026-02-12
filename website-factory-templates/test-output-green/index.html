@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenMachine Template Test - Turf Titans</title>
+    <link rel="stylesheet" href="greenmachine.css">
+    <style>
+        body { font-family: sans-serif; padding: 2rem; background: black; color: white; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .card { background: #18181b; border-radius: 8px; padding: 2rem; margin-bottom: 2rem; border: 1px solid #27272a; }
+        h1 { color: #a3e635; margin-bottom: 1rem; }
+        .success { color: #a3e635; font-weight: bold; }
+        .info { color: #a1a1aa; margin-bottom: 1rem; }
+        iframe { width: 100%; height: 600px; border: 2px solid #27272a; border-radius: 8px; background: white; }
+        a { color: #a3e635; }
+        pre { background: #09090b; padding: 1rem; border-radius: 4px; overflow: auto; color: #a1a1aa; border: 1px solid #27272a; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>GreenMachine Template Test</h1>
+            <p class="info">Business: <strong>Turf Titans</strong></p>
+            <p class="info">Service: Premium Lawn Care in Austin</p>
+            <p class="success">✅ Template successfully populated with sample data!</p>
+        </div>
+        
+        <div class="card">
+            <h2>Preview:</h2>
+            <iframe src="greenmachine-populated.html" title="GreenMachine Template Preview"></iframe>
+            <p style="margin-top: 1rem;">
+                <a href="greenmachine-populated.html" target="_blank">Open in new tab</a> | 
+                <a href="greenmachine.css" target="_blank">View CSS</a>
+            </p>
+        </div>
+        
+        <div class="card">
+            <h2>Sample Data Used:</h2>
+            <pre>
+{
+  "business_name": "Turf Titans",
+  "primary_service": "Premium Lawn Care",
+  "city": "Austin",
+  "phone": "(512) 555-0123",
+  "email": "power@turftitans.com",
+  "about_text": "Commercial-grade equipment. Cutting-edge techniques. Results that dominate.",
+  "features": [
+    {
+      "name": "Fast Turnaround",
+      "description": "Same-week service, every time. We don't waste your time."
+    },
+    {
+      "name": "Guaranteed Results",
+      "description": "Not satisfied? We come back and make it right—free."
+    },
+    {
+      "name": "Award Winning",
+      "description": "Voted #1 lawn service 3 years running by local press."
+    }
+  ]
+}
+            </pre>
+        </div>
+    </div>
+</body>
+</html>

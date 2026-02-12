@@ -1,0 +1,75 @@
+{
+  "name": "FreshCut",
+  "description": "Modern, clean lawn care template with emerald green accent",
+  "accent_color": "#10b981",
+  "category": "lawn-care",
+  "version": "1.0.0",
+  "features": [
+    "Mobile responsive",
+    "Contact form ready",
+    "Service sections",
+    "Testimonial section",
+    "Call to action",
+    "Stats showcase",
+    "Modern gradient design"
+  ],
+  "template_type": "modern",
+  "css_file": "freshcut.css",
+  "html_file": "freshcut.html",
+  "content_slots": {
+    "business_name": "{{BUSINESS_NAME}}",
+    "primary_service": "{{PRIMARY_SERVICE}}",
+    "city": "{{CITY}}",
+    "phone": "{{PHONE}}",
+    "email": "{{EMAIL}}",
+    "about_text": "Professional {{PRIMARY_SERVICE}} that transforms your outdoor space into a pristine, magazine-worthy landscape.",
+    "services": [
+      {
+        "name": "Lawn Mowing",
+        "description": "Weekly and bi-weekly mowing with precision cutting patterns."
+      },
+      {
+        "name": "Irrigation",
+        "description": "Smart sprinkler systems designed for optimal water usage."
+      },
+      {
+        "name": "Fertilization",
+        "description": "Seasonal treatments to keep your grass thick and green."
+      }
+    ],
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Happy Clients"
+      },
+      {
+        "number": "12+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "98%",
+        "label": "Satisfaction Rate"
+      },
+      {
+        "number": "24hr",
+        "label": "Response Time"
+      }
+    ],
+    "testimonial": {
+      "text": "\"{{BUSINESS_NAME}} transformed our yard from an embarrassment to the envy of the neighborhood. Absolutely outstanding service.\"",
+      "author": "Sarah M., Homeowner"
+    }
+  },
+  "required_tags": [
+    "{{BUSINESS_NAME}}",
+    "{{PRIMARY_SERVICE}}",
+    "{{CITY}}",
+    "{{PHONE}}",
+    "{{EMAIL}}"
+  ],
+  "optional_tags": [
+    "{{ABOUT_TEXT}}",
+    "{{SERVICES_LIST}}",
+    "{{TESTIMONIALS}}"
+  ]
+}

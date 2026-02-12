@@ -1,0 +1,57 @@
+{
+  "name": "EstateLawns",
+  "description": "Premium, luxury lawn care template with gold accent for high-end properties",
+  "accent_color": "#c9a84c",
+  "category": "lawn-care",
+  "version": "1.0.0",
+  "features": [
+    "Mobile responsive",
+    "Dark luxury theme",
+    "Premium service sections",
+    "Testimonial section",
+    "Call to action",
+    "Elegant typography",
+    "Professional photography"
+  ],
+  "template_type": "professional",
+  "css_file": "estatelawns.css",
+  "html_file": "estatelawns.html",
+  "content_slots": {
+    "business_name": "{{BUSINESS_NAME}}",
+    "primary_service": "{{PRIMARY_SERVICE}}",
+    "city": "{{CITY}}",
+    "phone": "{{PHONE}}",
+    "email": "{{EMAIL}}",
+    "about_text": "Bespoke landscape management for distinguished properties. Where craftsmanship meets the extraordinary.",
+    "services": [
+      {
+        "name": "Grounds Management",
+        "description": "Full-service maintenance for expansive estate properties with dedicated crews."
+      },
+      {
+        "name": "Garden Design",
+        "description": "Curated botanical installations that complement your estate's architecture."
+      },
+      {
+        "name": "Seasonal Programs",
+        "description": "Year-round care plans tailored to your property's unique microclimate."
+      }
+    ],
+    "testimonial": {
+      "text": "\"{{BUSINESS_NAME}} doesn't just maintain our property—they elevate it. Their attention to detail is unmatched.\"",
+      "author": "The Wellington Residence"
+    }
+  },
+  "required_tags": [
+    "{{BUSINESS_NAME}}",
+    "{{PRIMARY_SERVICE}}",
+    "{{CITY}}",
+    "{{PHONE}}",
+    "{{EMAIL}}"
+  ],
+  "optional_tags": [
+    "{{ABOUT_TEXT}}",
+    "{{SERVICES_LIST}}",
+    "{{TESTIMONIALS}}"
+  ]
+}

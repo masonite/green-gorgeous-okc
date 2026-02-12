@@ -1,0 +1,70 @@
+{
+  "name": "Grassroots",
+  "description": "Minimal, earthy lawn care template with natural green accent for eco-friendly businesses",
+  "accent_color": "#5a7a3a",
+  "category": "lawn-care",
+  "version": "1.0.0",
+  "features": [
+    "Mobile responsive",
+    "Earthy natural theme",
+    "Value propositions",
+    "Process steps",
+    "Call to action",
+    "Minimalist design",
+    "Eco-friendly focus"
+  ],
+  "template_type": "minimal",
+  "css_file": "grassroots.css",
+  "html_file": "grassroots.html",
+  "content_slots": {
+    "business_name": "{{BUSINESS_NAME}}",
+    "primary_service": "{{PRIMARY_SERVICE}}",
+    "city": "{{CITY}}",
+    "phone": "{{PHONE}}",
+    "email": "{{EMAIL}}",
+    "about_text": "We believe in nurturing your lawn with organic methods and earth-friendly practices. Beautiful results, naturally.",
+    "values": [
+      {
+        "name": "Locally Owned",
+        "description": "Family-run business serving our community since 2008."
+      },
+      {
+        "name": "Eco-Friendly",
+        "description": "All-natural fertilizers and sustainable lawn care methods."
+      },
+      {
+        "name": "Reliable Service",
+        "description": "Show up on time, every time. That's our promise."
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Free Consultation",
+        "description": "We walk your property and assess your lawn's unique needs."
+      },
+      {
+        "step": "02",
+        "title": "Custom Plan",
+        "description": "A tailored care plan using organic, earth-friendly products."
+      },
+      {
+        "step": "03",
+        "title": "Beautiful Results",
+        "description": "Sit back and enjoy a lush, healthy lawn you can be proud of."
+      }
+    ]
+  },
+  "required_tags": [
+    "{{BUSINESS_NAME}}",
+    "{{PRIMARY_SERVICE}}",
+    "{{CITY}}",
+    "{{PHONE}}",
+    "{{EMAIL}}"
+  ],
+  "optional_tags": [
+    "{{ABOUT_TEXT}}",
+    "{{VALUES_LIST}}",
+    "{{PROCESS_STEPS}}"
+  ]
+}
