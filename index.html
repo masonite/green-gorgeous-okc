@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LawnLead OKC - Deployment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 40px; line-height: 1.6; }
+        h1 { color: #2c3e50; }
+        .site { background: #f8f9fa; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        .btn { display: inline-block; background: #3498db; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin: 10px 5px 0 0; }
+        .btn:hover { background: #2980b9; }
+        .status { padding: 5px 10px; border-radius: 4px; font-size: 0.9em; }
+        .ready { background: #d4edda; color: #155724; }
+        .pending { background: #fff3cd; color: #856404; }
+    </style>
+</head>
+<body>
+    <h1>🚀 LawnLead OKC Deployment</h1>
+    <p>Websites ready for GitHub Pages deployment.</p>
+    
+    <div class="site">
+        <h2>GetLawnServiceOKC.com</h2>
+        <p><strong>Purpose:</strong> Homeowner side - Get lawn service quotes</p>
+        <p><strong>Status:</strong> <span class="status ready">Ready for deployment</span></p>
+        <a href="getlawnserviceokc/index.html" class="btn">Preview Site</a>
+        <a href="https://getlawnserviceokc.com" class="btn" target="_blank">Live Domain</a>
+    </div>
+    
+    <div class="site">
+        <h2>LawnLeadOKC.com</h2>
+        <p><strong>Purpose:</strong> Provider side - Lawn companies sign up for leads</p>
+        <p><strong>Status:</strong> <span class="status ready">Ready for deployment</span></p>
+        <a href="lawnleadokc/index.html" class="btn">Preview Site</a>
+        <a href="https://lawnleadokc.com" class="btn" target="_blank">Live Domain</a>
+    </div>
+    
+    <div style="margin-top: 40px; padding: 20px; background: #e8f4f8; border-radius: 8px;">
+        <h3>Deployment Instructions</h3>
+        <p>To deploy to GitHub Pages:</p>
+        <pre style="background: #2c3e50; color: white; padding: 15px; border-radius: 4px; overflow-x: auto;">
+cd /home/dmark/clawd
+git add gh-pages-deploy/
+git commit -m "Deploy LawnLeadOKC.com and GetLawnServiceOKC.com"
+git push origin gh-pages</pre>
+        <p><strong>Note:</strong> Domains need DNS configuration to point to GitHub Pages.</p>
+    </div>
+</body>
+</html>

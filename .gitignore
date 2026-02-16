@@ -1,0 +1,64 @@
+# API keys and secrets
+.env
+.env.local
+.env.*.local
+secrets/
+config/private*.json
+*.pem
+*.key
+*.crt
+
+# Local development files
+node_modules/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.cache/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+eth-monitor.log
+eth-cron.log
+eth_price_data.json
+contractor-assessments.csv
+contractor-outreach-tracker.csv
+contractor-website-assessment.csv
+green-gorgeous-okc-backup-*/
+green-gorgeous-okc.tar.gz
+site-files.tar.gz
+site.tar.gz
+
+# Clawdbot specific
+.clawdhub/
+memory/
+skills/base-trader/references/
+skills/technical-analyst/references/
+
+# Temporary files
+tmp/
+temp/
