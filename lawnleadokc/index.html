@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LawnLead OKC - Quality Lawn Care Leads Delivered to Your Inbox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: black;
+            color: white;
+        }
+        
+        .font-heading {
+            font-family: 'Inter', sans-serif;
+            font-weight: 900;
+        }
+        
+        .text-gradient-agency {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+<div class="min-h-screen bg-black text-white" style="font-family: 'Inter', sans-serif">
+      <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <i data-lucide="leaf" class="w-6 h-6 text-blue-400"></i>
+            <span class="font-heading text-xl font-bold tracking-tight">LawnLead OKC</span>
+          </div>
+          <div class="hidden md:flex items-center gap-8 text-sm text-gray-400">
+            <a href="#how-it-works" class="hover:text-blue-400 cursor-pointer transition-colors">How It Works</a>
+            <a href="#pricing" class="hover:text-blue-400 cursor-pointer transition-colors">Pricing</a>
+            <a href="#form" class="hover:text-blue-400 cursor-pointer transition-colors">Sign Up</a>
+          </div>
+          <a href="#form" class="bg-blue-400 text-black px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-blue-300 transition-colors">
+            Get Leads →
+          </a>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="relative pt-20 min-h-screen flex items-center">
+        <div class="absolute inset-0">
+          <img src="https://images.unsplash.com/photo-1600585154340-043788447ebf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Lawn care professional" class="w-full h-full object-cover opacity-40" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/40"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-6 w-full py-20">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-400/10 text-blue-400 text-sm font-medium mb-8">
+              <i data-lucide="zap" class="w-4 h-4"></i> Quality Leads Delivered to Your Inbox
+            </div>
+            <h1 class="font-heading text-6xl md:text-8xl font-bold leading-[0.95] mb-8">
+              Stop Chasing Leads.<br />
+              Start <span class="text-blue-400">Closing Jobs.</span>
+            </h1>
+            <p class="text-xl text-gray-400 mb-10 max-w-lg">
+              Get qualified lawn care leads delivered to your inbox. Homeowners who need service right now, in your area.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="#form" class="bg-blue-400 text-black px-10 py-5 rounded-xl font-bold text-lg hover:bg-blue-300 transition-colors flex items-center gap-2">
+                Sign Up for Leads <i data-lucide="arrow-right" class="w-5 h-5"></i>
+              </a>
+              <a href="#pricing" class="border border-white/20 text-white px-10 py-5 rounded-xl font-bold text-lg hover:border-blue-400 transition-colors">
+                See Pricing
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section id="how-it-works" class="py-24 bg-zinc-950 scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center mb-16">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-400/10 text-blue-400 text-sm font-medium mb-6">
+              <i data-lucide="repeat" class="w-4 h-4"></i> Simple Process
+            </div>
+            <h2 class="font-heading text-5xl md:text-6xl font-bold mb-8">How It Works</h2>
+          </div>
+          
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 text-center">
+              <div class="w-16 h-16 bg-blue-400/10 border border-blue-400/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="user-check" class="w-8 h-8 text-blue-400"></i>
+              </div>
+              <h3 class="font-heading text-2xl font-bold mb-4">1. Homeowners Request Service</h3>
+              <p class="text-gray-400">Homeowners fill out a simple form with their address and service needed.</p>
+            </div>
+            
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 text-center">
+              <div class="w-16 h-16 bg-blue-400/10 border border-blue-400/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="bell" class="w-8 h-8 text-blue-400"></i>
+              </div>
+              <h3 class="font-heading text-2xl font-bold mb-4">2. You Get Alerted</h3>
+              <p class="text-gray-400">We send you the lead details instantly via email or SMS. Includes contact info and service details.</p>
+            </div>
+            
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 text-center">
+              <div class="w-16 h-16 bg-blue-400/10 border border-blue-400/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-lucide="dollar-sign" class="w-8 h-8 text-blue-400"></i>
+              </div>
+              <h3 class="font-heading text-2xl font-bold mb-4">3. Close the Job</h3>
+              <p class="text-gray-400">Contact the homeowner, provide a quote, and schedule the service. Pay only for qualified leads.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section id="pricing" class="py-24 bg-black scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center mb-16">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-400/10 text-blue-400 text-sm font-medium mb-6">
+              <i data-lucide="credit-card" class="w-4 h-4"></i> Transparent Pricing
+            </div>
+            <h2 class="font-heading text-5xl md:text-6xl font-bold mb-8">Pay Only for Qualified Leads</h2>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto">No monthly fees, no contracts. You pay only when you receive a lead that matches your service area.</p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+              <div class="mb-8">
+                <h3 class="font-heading text-2xl font-bold mb-2">Pay Per Lead</h3>
+                <p class="text-gray-500">Flexible, no commitment</p>
+                <div class="mt-6">
+                  <span class="font-heading text-5xl font-bold">$10</span>
+                  <span class="text-gray-500">/lead</span>
+                </div>
+              </div>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Qualified homeowners
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Service details & contact info
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Delivery within 1 hour
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> No minimums
+                </li>
+              </ul>
+              <a href="#form" class="w-full border border-blue-400 text-blue-400 px-6 py-3 rounded-xl font-bold hover:bg-blue-400 hover:text-black transition-colors text-center block">
+                Get Started
+              </a>
+            </div>
+
+            <div class="bg-zinc-900 border-2 border-blue-400 rounded-3xl p-8 relative">
+              <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+                <div class="bg-blue-400 text-black px-4 py-1 rounded-full text-xs font-bold">
+                  MOST POPULAR
+                </div>
+              </div>
+              <div class="mb-8">
+                <h3 class="font-heading text-2xl font-bold mb-2">Weekly Bundle</h3>
+                <p class="text-gray-500">Best value for busy companies</p>
+                <div class="mt-6">
+                  <span class="font-heading text-5xl font-bold">$75</span>
+                  <span class="text-gray-500">/week</span>
+                </div>
+                <p class="text-sm text-gray-400 mt-2">Up to 10 leads (just $7.50/lead)</p>
+              </div>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Up to 10 leads per week
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Priority delivery
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Advanced filtering
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Weekly billing
+                </li>
+              </ul>
+              <a href="#form" class="w-full bg-blue-400 text-black px-6 py-3 rounded-xl font-bold hover:bg-blue-300 transition-colors text-center block">
+                Get Started
+              </a>
+            </div>
+
+            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+              <div class="mb-8">
+                <h3 class="font-heading text-2xl font-bold mb-2">Monthly Unlimited</h3>
+                <p class="text-gray-500">For growing companies</p>
+                <div class="mt-6">
+                  <span class="font-heading text-5xl font-bold">$250</span>
+                  <span class="text-gray-500">/month</span>
+                </div>
+                <p class="text-sm text-gray-400 mt-2">Unlimited leads in your service area</p>
+              </div>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Unlimited qualified leads
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Instant SMS alerts
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Custom service area
+                </li>
+                <li class="flex items-center gap-2 text-gray-400">
+                  <i data-lucide="check" class="w-5 h-5 text-blue-400"></i> Dedicated support
+                </li>
+              </ul>
+              <a href="#form" class="w-full border border-blue-400 text-blue-400 px-6 py-3 rounded-xl font-bold hover:bg-blue-400 hover:text-black transition-colors text-center block">
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Form -->
+      <section id="form" class="py-24 bg-zinc-950 scroll-mt-20">
+        <div class="max-w-3xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-400/10 text-blue-400 text-sm font-medium mb-6">
+              <i data-lucide="user-plus" class="w-4 h-4"></i> Sign Up for Leads
+            </div>
+            <h2 class="font-heading text-4xl md:text-5xl font-bold mb-6">Get Quality Lawn Care Leads Delivered to Your Inbox</h2>
+            <p class="text-xl text-gray-400">Fill out this form and we'll set up your account. You'll start receiving leads within 24 hours.</p>
+          </div>
+          
+          <form name="provider-signup" netlify class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 md:p-12">
+            <input type="hidden" name="form-name" value="provider-signup" />
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label class="block text-sm font-medium text-gray-400 mb-2">Company Name *</label>
+                <input type="text" name="company" required class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-400" placeholder="Green Thumb Solutions">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-400 mb-2">Contact Name *</label>
+                <input type="text" name="contact-name" required class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-400" placeholder="John Smith">
+              </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label class="block text-sm font-medium text-gray-400 mb-2">Email *</label>
+                <input type="email" name="email" required class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-400" placeholder="contact@example.com">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-400 mb-2">Phone *</label>
+                <input type="tel" name="phone" required class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-400" placeholder="(405) 555-1234">
+              </div>
+            </div>
+            
+            <div class="mb-6">
+              <label class="block text-sm font-medium text-gray-400 mb-2">Service Area (ZIP codes) *</label>
+              <input type="text" name="service-area" required placeholder="e.g., 73120, 73162, 73013" class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-400">
+              <p class="text-sm text-gray-500 mt-2">Separate ZIP codes with commas</p>
+            </div>
+            
+            <div class="mb-6">
+              <label class="block text-sm font-medium text-gray-400 mb-2">Services Offered *</label>
+              <div class="flex flex-wrap gap-3">
+                <label class="inline-flex items-center">
+                  <input type="checkbox" name="services" value="mowing" class="rounded border-zinc-700 bg-zinc-800 text-blue-400 focus:ring-blue-400">
+                  <span class="ml-2 text-gray-300">Mowing</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input type="checkbox" name="services" value="trimming" class="rounded border-zinc-700 bg-zinc-800 text-blue-400 focus:ring-blue-400">
+                  <span class="ml-2 text-gray-300">Trimming/Edging</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input type="checkbox" name="services" value="fertilization" class="rounded border-zinc-700 bg-zinc-800 text-blue-400 focus:ring-blue-400">
+                  <span class="ml-2 text-gray-300">Fertilization</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input type="checkbox" name="services" value="weed-control" class="rounded border-zinc-700 bg-zinc-800 text-blue-400 focus:ring-blue-400">
+                  <span class="ml-2 text-gray-300">Weed Control</span>
+                </label>
+                <label class="inline-flex items-center">
+                  <input type="checkbox" name="services" value="landscaping" class="rounded border-zinc-700 bg-zinc-800 text-blue-400 focus:ring-blue-400">
+                  <span class="ml-2 text-gray-300">Landscaping</span>
+                </label>
+              </div>
+            </div>
+            
+            <div class="mb-8">
+              <label class="block text-sm font-medium text-gray-400 mb-2">Lead Pricing Preference *</label>
+              <select name="pricing-preference" required class="w-full bg-zinc-800 border border-zinc-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-400">
+                <option value="">Select an option</option>
+                <option value="pay-per-lead">Pay Per Lead ($10/lead)</option>
+                <option value="weekly-bundle">Weekly Bundle ($75/week, up to 10 leads)</option>
+                <option value="monthly-unlimited">Monthly Unlimited ($250/month)</option>
+                <option value="not-sure">Not sure - let's discuss</option>
+              </select>
+            </div>
+            
+            <button type="submit" class="w-full bg-blue-400 text-black px-6 py-4 rounded-xl font-bold text-lg hover:bg-blue-300 transition-colors flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-5 h-5"></i> Sign Up for Lawn Care Leads
+            </button>
+            
+            <p class="text-sm text-gray-500 mt-4 text-center">We'll contact you within 24 hours to confirm your account and start sending leads. No upfront fees.</p>
+          </form>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="py-24 bg-black scroll-mt-20">
+        <div class="max-w-3xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-blue-400/30 bg-blue-400/10 text-blue-400 text-sm font-medium mb-6">
+              <i data-lucide="help-circle" class="w-4 h-4"></i> FAQ
+            </div>
+            <h2 class="font-heading text-4xl md:text-5xl font-bold mb-8">Frequently Asked Questions</h2>
+          </div>
+          
+          <div class="space-y-6">
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+              <h3 class="font-heading text-xl font-bold mb-3">What makes your leads qualified?</h3>
+              <p class="text-gray-400">Homeowners provide their address and specific service needs. We verify they're in your service area before sending the lead.</p>
+            </div>
+            
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+              <h3 class="font-heading text-xl font-bold mb-3">How quickly do I get leads?</h3>
+              <p class="text-gray-400">Leads are delivered within 1 hour of submission. You'll get an email with all details.</p>
+            </div>
+            
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+              <h3 class="font-heading text-xl font-bold mb-3">What if a lead doesn't convert?</h3>
+              <p class="text-gray-400">We verify contact info, but if a homeowner doesn't respond after 3 attempts, we'll issue a credit for that lead.</p>
+            </div>
+            
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+              <h3 class="font-heading text-xl font-bold mb-3">Can I pause or cancel anytime?</h3>
+              <p class="text-gray-400">Yes. No contracts. Cancel anytime. For weekly/monthly plans, you can pause or cancel before the next billing cycle.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-black py-10 border-t border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div class="flex items-center gap-2">
+            <i data-lucide="leaf" class="w-5 h-5 text-blue-400"></i>
+            <span class="font-heading font-bold">LawnLead OKC</span>
+          </div>
+          <p class="text-sm text-gray-600">© 2026 LawnLead OKC. Quality leads for lawn care companies.</p>
+          <p class="text-sm text-gray-600">Oklahoma City | (405) 555-LEAD</p>
+        </div>
+      </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</div>
+</body>
+</html>

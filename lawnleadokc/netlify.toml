@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+  command = ""
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--prefix ."

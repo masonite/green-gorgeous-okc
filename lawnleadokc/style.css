@@ -1,0 +1,57 @@
+/* Additional styles for Lawn Lead OKC */
+.provider-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.provider-card h3 {
+    color: #3498db;
+    margin-top: 0;
+}
+
+.rating {
+    color: #f39c12;
+    font-size: 18px;
+}
+
+.quote-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.quote-form button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quote-form button:hover {
+    background: #c0392b;
+}
+
+.testimonial {
+    font-style: italic;
+    border-left: 3px solid #3498db;
+    padding-left: 15px;
+    margin: 15px 0;
+}
